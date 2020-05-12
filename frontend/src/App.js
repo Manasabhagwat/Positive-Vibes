@@ -9,27 +9,38 @@ import {
 import './App.css';
 
 import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer.js";
 
 // Import pages
 import HomePage from './components/home/HomePage';
-import PostsPage from "./components/posts/PostsPage";
+import OtherInformation from "./components/home/OtherInformation";
+import ContactUs from "./components/home/ContactUs";
 
 function App() {
 
   const router = (
             <Router>
-                <Navbar/>
+                <Navbar fixed="top"/>
+               
 
-                <div className="container mt-5">
+                <div className="container mt-5" id="side_margin" >
                     <Switch>
-                        <Route path="/posts">
-                            <PostsPage/>
-                        </Route>
-                        <Route path="/">
+                        
+                        <Route exact path="/">
                           <HomePage/>
+                        </Route>
+
+                        <Route path="/otherInformation">
+                            <OtherInformation/>
+                        </Route>
+                        
+                        <Route path="/contactUs">
+                            <ContactUs/>
                         </Route>
                     </Switch>
                 </div>
+             < Footer fixed="bottom"/>
+
             </Router>
   );
 

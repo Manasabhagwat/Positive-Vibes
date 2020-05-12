@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: justify;
 }
 
 code {
@@ -13,5 +14,6 @@ code {
 }
 
 .card-body {
-  background-color: #2fe6e652;;
+  background-color: white;
+  text-align: justify;
 }
