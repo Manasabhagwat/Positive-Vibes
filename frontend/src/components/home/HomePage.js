@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import {Nav} from "react-bootstrap";
-import Alert from 'react-bootstrap/Alert'
+import Alert from 'react-bootstrap/Alert';
+
  
 class HomePage extends Component {
     render() {
@@ -33,6 +34,8 @@ class HomePage extends Component {
                                 <Alert variant="success" className="alertCol">   
                                 <Col ><Link to="/InternationalStudents"> International Students</Link></Col>
                                 </Alert>
+
+                               
                             </Row>
                         </Container>
                     </div>

@@ -62,11 +62,11 @@ class PostsPage extends React.Component {
         const posts = this.state.posts;
 
         return (
-            <div>
+            <div className="background-image">
                 <PostForm onSubmit={(postData) => this.createPost(postData)}/>
 
-                {posts.map(post => 
-                    <PostCard key={post.id} post={post} onDeleteClick={() => this.deletePost(post)} onUpdateClick={() => this.updatePost(post)}/>
+                {this.state.posts.map(post => 
+                    <PostCard key={post.id} post={post} onDeleteClick={() => this.deletePost(post)} onUpdateClick={(post) => this.updatePost(post)}/>
                 )}
             </div>
         );

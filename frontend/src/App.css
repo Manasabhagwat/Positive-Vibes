@@ -99,6 +99,7 @@ to{
   
 }
 
+<<<<<<< HEAD
 .bigger{
   width:100%;
   height:200px;
@@ -136,3 +137,12 @@ to{
 #image5{
 background-image:url('./components/home/InternationalStudents.png');
 }
+=======
+button.btn.btn-primary {
+  margin: 20px;
+}
+
+.background-image {
+  background-image: url(./covid-19-image.jpg);
+}
+>>>>>>> backend and frontend chsnges releated to posts
