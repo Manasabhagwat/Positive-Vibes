@@ -1,9 +1,5 @@
 import React, {useState} from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route,} from "react-router-dom";
 
 // Import custom styles for our application
 import './App.css';
@@ -14,7 +10,7 @@ import Footer from "./components/layout/Footer.js";
 // Import pages
 import HomePage from './components/home/HomePage';
 import OtherInformation from "./components/home/OtherInformation";
-import ContactUs from "./components/home/ContactUs";
+import AboutUs from "./components/home/AboutUs";
 
 function App() {
 
@@ -34,8 +30,8 @@ function App() {
                             <OtherInformation/>
                         </Route>
                         
-                        <Route path="/contactUs">
-                            <ContactUs/>
+                        <Route path="/aboutUs">
+                            <AboutUs/>
                         </Route>
                     </Switch>
                 </div>
