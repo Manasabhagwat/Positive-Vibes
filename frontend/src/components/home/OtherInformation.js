@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
+import SideBar from '../layout/SideBar.js';
  
 class OtherInformation extends Component {
   constructor(props) {
@@ -14,8 +15,6 @@ class OtherInformation extends Component {
     };
 
     componentDidMount() {
-      // const API = 'https://api.quarantine.country/api/v1/summary/region?region=new_york';
-      //  const DEFAULT_QUERY = 'redux';  
         fetch('https://api.quarantine.country/api/v1/summary/region?region=sweden')
           .then(response => response.json())
           .then( json => {this.setState({ jsonObject: json })})
@@ -31,28 +30,7 @@ class OtherInformation extends Component {
                 <div>
                      <div className="row">
                         <div className="col-sm-3">
-                            <Container >
-                              <Row >
-                                    
-                                    <Alert variant="success"  className="alertCol">   
-                                    <Col ><Link to="#">   Age 3 To 6 Years   </Link></Col>
-                                    </Alert>
-    
-                                    <Alert variant="success" className="alertCol">   
-                                    <Col><Link to="#">    Age 6 To 15 Years    </Link></Col>
-                                        </Alert>
-    
-                                    <Alert variant="success" className="alertCol">   
-                                    <Col ><Link to="#">   Age 15 To 21 Years   </Link></Col>
-                                         </Alert>
-                                        
-                                    <Alert variant="success" className="alertCol">   
-                                    <Col ><Link to="#"> International Students</Link></Col>
-                                    </Alert>
-    
-                                   
-                                </Row>
-                            </Container>
+                        <SideBar/> 
                         </div>
                             <div className="col-sm-9" id ="Covid_Info" >
                                 <h2> Covid -Information</h2> 

@@ -17,7 +17,6 @@ class AboutUs extends Component {
                  <div className="row">
                     <div className="col-sm-3">
                      <SideBar/>                  
-                    );
                     </div>
                     <div> <img src={aboutUs} height={320} width={850} /> </div>
                 </div>
