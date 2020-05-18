@@ -123,12 +123,41 @@
   background-color: black;
   
 }
-.hrset
-{
-  border-color:lightgrey;
-  
-  width: 70%;
 
+.bigger{
+  width:100%;
+  height:200px;
+  background-size:cover;
+  background-position:center;
+  position:relative;
+  border-style: solid;
+  box-shadow:black;
+}
+.smaller{
+  width:100%;
+  height:50px;
+  position:absolute;
+  background-color:rgba(0,0,0,0.6);
+  bottom:0;
+  text-align:center;
+  color:rgb(249, 255, 255);
+}
 
+#image1{
+  background-image:url('./components/home/under3Years.png');
+  }
+#image2{
+  background-image:url('./components/home/Age3To6Years.png');
+}
 
+#image3{
+  background-image:url('./components/home/Age6To15Years.png');
+}
+
+#image4{
+  background-image:url('./components/home/Age15To21Years.png');
+}
+
+#image5{
+background-image:url('./components/home/InternationalStudents.png');
 }
