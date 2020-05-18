@@ -1,9 +1,5 @@
 import React, {useState} from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route,} from "react-router-dom";
 
 // Import custom styles for our application
 import './App.css';
@@ -39,8 +35,8 @@ function App() {
                             <OtherInformation/>
                         </Route>
                         
-                        <Route path="/contactUs">
-                            <ContactUs/>
+                        <Route path="/aboutUs">
+                            <AboutUs/>
                         </Route>
 
                         <Route path="/under3years">
