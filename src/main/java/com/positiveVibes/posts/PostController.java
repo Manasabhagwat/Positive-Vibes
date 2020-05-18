@@ -23,42 +23,42 @@ import org.springframework.web.server.ResponseStatusException;
  */
 
 @RestController
-@RequestMapping("/posts")
+
 public class PostController {
 
 	@Autowired
 	private PostService postService;
 	
 	//get a list of all the post
-	@GetMapping("")
+	@GetMapping("/posts")
 	public List<Post> getAll (){
 		return postService.getAll();
 	}
 	
 	//Get all posts related to a category
-	@GetMapping("/{category}")
+	@GetMapping("/posts/{category}")
 	public List<Post> getByCategory(@PathVariable String category) {
 		return postService.getByCategory(category);
 	}
 	
 	//Get specific post related to a category
-	@GetMapping("/{Category}/{id}")
+	@GetMapping("/posts/{Category}/{id}")
 	public Post getByCategory(@PathVariable Long id,String category ) {
 		return postService.getByID(id)
 				.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
 	}
 	
-	@PostMapping("")
+	@PostMapping("/posts")
 	public void addPost(@RequestBody Post post) {
 		postService.save(post);
 	}
 	
-	@DeleteMapping("/{id}") 
+	@DeleteMapping("/posts/{id}") 
 	public void deletePostByid(@PathVariable Long id){
 		postService.deleteById(id);
 	}
 	
-	@PutMapping("")
+	@PutMapping("/posts")
 	public Post updatePost(@RequestBody Post post) {
 		return postService.update(post);
 	}

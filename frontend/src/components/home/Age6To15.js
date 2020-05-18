@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
+import PostsPage from "../posts/PostsPage";
  
 class Age6To15 extends Component {
     render() {
@@ -45,11 +46,11 @@ class Age6To15 extends Component {
                                     </p>  
                                     <div>
                                     <p>View comments or leave comments here in discussion forum</p>
-                                    <button type="button" class="btn btn-info" href="#">Discussion Forum</button>
                                     </div>
                                 
                          </div>  
                  </div>
+                 <PostsPage category='6to15'/>
                  
              </div>
            

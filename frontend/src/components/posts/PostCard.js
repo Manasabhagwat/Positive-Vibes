@@ -1,45 +1,75 @@
 import React from "react";
+import CommentList from "../comments/CommentList";
+import { Container, Row, Col, Spinner } from 'react-bootstrap';
 
-function PostCard({post, onDeleteClick, onUpdateClick}) {
-    const [editPostbody, setBody] = React.useState("");
-    //this.state.editPostbody = post.body;
-    const handleSubmit = () => {
+
+class PostCard extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            editPostbody:null,
+            setBody:null
+        };
+        this.handleSubmit.bind(this);
+    }
+    handleSubmit = () => {
         // Invoke the passed in event callback
-        onUpdateClick({body: setBody});
+        this.props.onUpdateClick({body: this.state.editPostbody,id: this.state.post.id});
 
         // Clear the input field
-        setBody("");
+        this.props.setBody("");
     };
-    return (
-        <div className="card mt-3">
-            <div className="card-body">
-                <p>
-                    {post.body}
-                    {setBody}
-                </p>
-
-                <button className="btn btn-danger" onClick={onDeleteClick}>Delete</button>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target={"#collapse"+post.id} aria-expanded="false" aria-controls={"#collapse"+post.id}>
-                     Edit
-                </button>
-                <div class="collapse" id={"collapse"+post.id}>
-                    <div>
-                        <div className="form-group">
-                            <textarea value={editPostbody}
-                            onChange={e => setBody(e.target.value)} />
+    render() {
+        return (
+        
+        <Row>
+                
+            <div className="card mt-3 ml-3 col-md-11">
+                <div className="card-body" id="post{this.props.post.id}">
+                    <h5>{this.props.post.heading}</h5>
+                    <p>{this.props.post.body}</p>
+                    
+    
+                   
+                   
+                    <button class="btn btn-outline-info " type="button" data-toggle="collapse" data-target={"#collapseComments"+this.props.post.id} aria-expanded="false" aria-controls={"#collapse"+this.props.post.id}>
+                    Comment                       
+                    </button>
+                    <button class="btn btn-outline-warning offset-md-7" type="button" data-toggle="collapse" data-target={"#collapse"+this.props.post.id} aria-expanded="false" aria-controls={"#collapse"+this.props.post.id}>
+                         Edit                       
+                    </button>
+                    <button className="btn btn-outline-danger offset-md-1" onClick={this.props.onDeleteClick}>
+                        Delete
+                    </button>
+                    
+                    <div class="collapse" id={"collapse"+this.props.post.id}>
+                        <div>
+                            <div className="form-group">
+                                <textarea value={this.state.editPostbody}
+                                onChange={e => this.setState({body:e.target.value})} />
+                            </div>
+                    
+                            <div className="form-group">
+                                <button 
+                                    className="btn btn-outline-success" 
+                                    onClick={this.handleSubmit}>
+                                    Post
+                                </button>
+                            </div>
                         </div>
-                        <div className="form-group">
-                            <button 
-                                className="btn btn-primary" 
-                                onClick={handleSubmit}>
-                                Post
-                            </button>
+                    </div>
+                    <div className="collapse" id={"collapseComments"+this.props.post.id}>
+                        <div className="comment-body">
+                            <CommentList post={this.props.post} />
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    );
+            
+        </Row>
+        )
+    }
 }
 
 export default PostCard;

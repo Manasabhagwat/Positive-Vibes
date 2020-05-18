@@ -31,7 +31,7 @@ class HomePage extends Component {
                             </Row>
                         </Container>
                     </div>
-                        <div className="col-sm-9" id ="Covid_Info" >
+                        <div className="col-xs-12 col-md-9" id ="Covid_Info" >
                             <h2> Covid -Information</h2> 
                                 <p> <b>What is COVID-19? </b>
                                 <br/>COVID-19 is a disease caused by a new strain of coronavirus. ‘CO’ stands for corona, ‘VI’ for virus, and ‘D’ for disease. Formerly, this disease was referred to as ‘2019 novel coronavirus’ or ‘2019-nCoV.’
@@ -51,14 +51,15 @@ class HomePage extends Component {
                                 </p> 
                             
                                 <p> <b>What is the treatment for COVID-19? </b>
-                                <br/> There is no currently available vaccine for COVID-19. However, many of the symptoms can be treated and getting early care from a healthcare provider can make the disease less dangerous. There are several clinical trials that are being conducted to evaluate potential therapeutics for COVID-19.
-                               </p>
-                                
-                         </div>  
-                 </div>
-                 
+                               <p>  There is no currently available vaccine for COVID-19. However, many of the symptoms can be treated and getting early care from a healthcare provider can make the disease less dangerous. There are several clinical trials that are being conducted to evaluate potential therapeutics for COVID-19.
+                               </p></p>  
+                        </div>  
+                 </div>  
              </div>
-                    
+
+           
+         
+           
         );
     }
 }

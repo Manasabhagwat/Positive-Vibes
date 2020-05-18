@@ -14,10 +14,9 @@ class PostsPage extends React.Component {
 
     async createPost(postData) {
         try {
-            const response = await PostsApi.createPost(postData);
-            const post = response.data;
-            const newPosts = this.state.posts.concat(post);
-
+            await PostsApi.createPost(postData);
+            const response = await PostsApi.getPostByCategeory(this.props.category);
+            const newPosts = response.data;
             this.setState({
                 posts: newPosts,
             });
@@ -52,8 +51,9 @@ class PostsPage extends React.Component {
     }
 
 
+
     componentDidMount() {
-        PostsApi.getAllPosts()
+        PostsApi.getPostByCategeory(this.props.category)
             .then(({data}) => this.setState({posts: data}))
             .catch(err => console.error(err));
     }
@@ -62,12 +62,13 @@ class PostsPage extends React.Component {
         const posts = this.state.posts;
 
         return (
-            <div>
-                <PostForm onSubmit={(postData) => this.createPost(postData)}/>
+            <div className="background-image">
+                
 
-                {posts.map(post => 
-                    <PostCard key={post.id} post={post} onDeleteClick={() => this.deletePost(post)} onUpdateClick={() => this.updatePost(post)}/>
+                {this.state.posts.map(post => 
+                    <PostCard key={post.id} post={post} onDeleteClick={() => this.deletePost(post)} onUpdateClick={(post) => this.updatePost(post)}/>
                 )}
+                 <PostForm category= {this.props.category} onSubmit={(postData) => this.createPost(postData)}/>
             </div>
         );
     }

@@ -7,19 +7,19 @@ function Footer() {
         <div>
             <Container id="margin1">
 
-                <Row>
-                    <Col>
-                        <p>covid-info<br />1177</p>
-                    </Col>
-                    <Col>
-                        <p>Emergency Number<br />112</p>
-                    </Col>
-                    <Col>
-                        <p>Medical Advice Number<br />11414</p>
-                    </Col>
-                </Row>
-
-            </Container>
+                    <Row>
+                        <Col>
+                        <span class= "fa fa-phone-square fa-lg"></span><span> covid-info<br />1177</span>
+                        </Col>
+                        <Col>
+                        <span class= "fa fa-phone-square fa-lg"></span><span> Emergency Number<br />112</span>
+                        </Col>
+                        <Col>
+                        <span class= "fa fa-phone-square fa-lg"></span><span> Medical Advice Number<br />11414</span>
+                        </Col>
+               </Row>
+       
+        </Container>
         </div>
     );
 }
