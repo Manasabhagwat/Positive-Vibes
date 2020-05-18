@@ -9,13 +9,13 @@ function Footer() {
 
                     <Row>
                         <Col>
-                        <p>covid-info<br />1177</p>
+                        <span class= "fa fa-phone-square fa-lg"></span><span> covid-info<br />1177</span>
                         </Col>
                         <Col>
-                        <p>Emergency Number<br />112</p>
+                        <span class= "fa fa-phone-square fa-lg"></span><span> Emergency Number<br />112</span>
                         </Col>
                         <Col>
-                        <p>Medical Advice Number<br />11414</p>
+                        <span class= "fa fa-phone-square fa-lg"></span><span> Medical Advice Number<br />11414</span>
                         </Col>
                </Row>
        

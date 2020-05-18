@@ -14,7 +14,7 @@ function Navbar() {
                         < Col>
                             <img src={logo}  className ="header-img" />
                         </Col>   
-                        <Col id = "colsetting">
+                        <Col id = "colsetting col-md-1">
                             <h1>Positive Vibes</h1>
                         </Col>    
                         <Col id = "headerLink">
@@ -32,25 +32,19 @@ function Navbar() {
                 <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
                             <Link to="/" className="nav-link">
-                                Home
+                                <span class= "fa fa-home fa-lg"></span>Home
                             </Link>
                         </li>
 
                         <li className="nav-item">
                             <Link to="/otherInformation" className="nav-link">
-                               Other Information
+                            <span class="fa fa-info-circle fas-lg"></span>Other Information
                             </Link>
                         </li>
 
                         <li className="nav-item">
                             <Link to="/contactUs" className="nav-link">
-                                Contact Us
-                            </Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link to="/PostsPage" className="nav-link">
-                                PostsPage 
+                            <span class="fa fa-address-card fas-lg"></span>Contact Us
                             </Link>
                         </li>
                 </ul>

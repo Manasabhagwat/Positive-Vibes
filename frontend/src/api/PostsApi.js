@@ -20,6 +20,10 @@ class PostsApi {
     deletePost(id) {
         return Api.delete('/posts/'+id);
     } 
+
+    getPostByCategeory(categeory) {
+        return Api.get('/posts/'+categeory);
+    }
 }
 
 export default new PostsApi();

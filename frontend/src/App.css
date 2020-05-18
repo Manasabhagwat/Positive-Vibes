@@ -99,7 +99,6 @@ to{
   
 }
 
-<<<<<<< HEAD
 .bigger{
   width:100%;
   height:200px;
@@ -137,12 +136,47 @@ to{
 #image5{
 background-image:url('./components/home/InternationalStudents.png');
 }
-=======
 button.btn.btn-primary {
   margin: 20px;
 }
 
-.background-image {
-  background-image: url(./covid-19-image.jpg);
+.hrset
+{
+  border-color:lightgrey;
+  
+  width: 70%;
 }
->>>>>>> backend and frontend chsnges releated to posts
+
+.sidebar{
+  column-width:80px;
+  background-color: black;
+  
+}
+
+.aboutus-Setting{
+  font-size: large;
+  padding-left: 40px;
+  text-align: center; 
+  font-family: cursive;
+  padding-top: 30px; 
+ }
+ .avatar {
+    max-width: 100px;   
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px; 
+  }
+
+  .aboutUs-Container{
+    padding-top: 40px;
+   
+  }
+
+  #img-margin{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+

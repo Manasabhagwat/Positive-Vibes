@@ -14,16 +14,13 @@ import Footer from "./components/layout/Footer.js";
 // Import pages
 import HomePage from './components/home/HomePage';
 import OtherInformation from "./components/home/OtherInformation";
-import ContactUs from "./components/home/ContactUs";
-<<<<<<< HEAD
 import Under3Years from "./components/home/Under3Years";
 import Age3To6 from "./components/home/Age3To6";
 import Age6To15 from "./components/home/Age6To15";
 import Age15To21 from "./components/home/Age15To21";
 import InternationalSt from "./components/home/InternationalSt";
-=======
 import PostsPage from "./components/posts/PostsPage";
->>>>>>> backend and frontend chsnges releated to posts
+import AboutUs from "./components/home/AboutUs";
 
 function App() {
 
@@ -32,7 +29,7 @@ function App() {
                 <Navbar fixed="top"/>
                
 
-                <div className="container mt-5" id="side_margin" >
+                <div className="container mt-5 col-md-1" id="side_margin" >
                     <Switch>
                         
                         <Route exact path="/">
@@ -43,11 +40,10 @@ function App() {
                             <OtherInformation/>
                         </Route>
                         
-                        <Route path="/contactUs">
-                            <ContactUs/>
+                        <Route path="/aboutUs">
+                            <AboutUs/>
                         </Route>
 
-<<<<<<< HEAD
                         <Route path="/under3years">
                             <Under3Years/>
                         </Route>
@@ -66,10 +62,9 @@ function App() {
 
                         <Route path="/InternationalStudents">
                             <InternationalSt/>
-=======
+                        </Route>
                         <Route path="/PostsPage">
                             <PostsPage/>
->>>>>>> backend and frontend chsnges releated to posts
                         </Route>
                     </Switch>
                 </div>

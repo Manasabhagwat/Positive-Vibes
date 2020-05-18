@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import {Nav} from "react-bootstrap";
 import Alert from 'react-bootstrap/Alert';
+import PostsPage from "../posts/PostsPage";
 
  
 class HomePage extends Component {
     render() {
         return (
            
+
+            
 
             <div>
                  <div className="row">
@@ -34,12 +37,10 @@ class HomePage extends Component {
                                 <Alert variant="success" className="alertCol">   
                                 <Col ><Link to="/InternationalStudents"> International Students</Link></Col>
                                 </Alert>
-
-                               
                             </Row>
                         </Container>
                     </div>
-                        <div className="col-sm-9" id ="Covid_Info" >
+                        <div className="col-xs-12 col-md-9" id ="Covid_Info" >
                             <h2> Covid -Information</h2> 
                                 <p> <b>What is COVID-19? </b>
                                 <p>COVID-19 is a disease caused by a new strain of coronavirus. ‘CO’ stands for corona, ‘VI’ for virus, and ‘D’ for disease. Formerly, this disease was referred to as ‘2019 novel coronavirus’ or ‘2019-nCoV.’
@@ -58,12 +59,11 @@ class HomePage extends Component {
                             
                                 <p> <b>What is the treatment for COVID-19? </b>
                                <p>  There is no currently available vaccine for COVID-19. However, many of the symptoms can be treated and getting early care from a healthcare provider can make the disease less dangerous. There are several clinical trials that are being conducted to evaluate potential therapeutics for COVID-19.
-                               </p></p>
-                                
-                         </div>  
-                 </div>
-                 
+                               </p></p>  
+                        </div>  
+                 </div>  
              </div>
+
            
          
            
