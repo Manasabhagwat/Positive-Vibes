@@ -32,19 +32,19 @@ function Navbar() {
                 <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
                             <Link to="/" className="nav-link">
-                                <span class= "fa fa-home fa-lg"></span>Home
+                                <span class= "fa fa-home fa-lg"></span> Home
                             </Link>
                         </li>
 
                         <li className="nav-item">
                             <Link to="/otherInformation" className="nav-link">
-                            <span class="fa fa-info-circle fas-lg"></span>Other Information
+                            <span class="fa fa-info-circle fas-lg"></span> Other Information
                             </Link>
                         </li>
 
                         <li className="nav-item">
                             <Link to="/aboutUs" className="nav-link">
-                                About Us
+                            <span class="fa fa-address-card fas-lg"></span> About Us
                             </Link>
                         </li>
                 </ul>

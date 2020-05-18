@@ -24,20 +24,12 @@ class PostCard extends React.Component {
         return (
         
         <Row>
-                
             <div className="card mt-3 ml-3 col-md-11">
                 <div className="card-body" id="post{this.props.post.id}">
                     <h5>{this.props.post.heading}</h5>
                     <p>{this.props.post.body}</p>
-                    
-    
-                   
-                   
                     <button class="btn btn-outline-info " type="button" data-toggle="collapse" data-target={"#collapseComments"+this.props.post.id} aria-expanded="false" aria-controls={"#collapse"+this.props.post.id}>
                     Comment                       
-                    </button>
-                    <button class="btn btn-outline-warning offset-md-7" type="button" data-toggle="collapse" data-target={"#collapse"+this.props.post.id} aria-expanded="false" aria-controls={"#collapse"+this.props.post.id}>
-                         Edit                       
                     </button>
                     <button className="btn btn-outline-danger offset-md-1" onClick={this.props.onDeleteClick}>
                         Delete

@@ -18,17 +18,17 @@ class InternationalSt extends Component {
                         <div className="col-sm-9" id ="Covid_Info" >
                            <div className="bigger" id="image5">
                                 <div className="smaller"><h3>International Students</h3></div>
-                             </div> 
+                            </div> 
                             <h2> heading here</h2> 
-                                    <p> <b>content1 </b>
-                                        <br />info here
-                                    </p>  
-                                    <div>
-                                    <p>View comments or leave comments here in discussion forum</p>
-                                    <h4>Disscusion Forum</h4>
-                                    </div>
-                                
-                         </div>  
+                            <p> <b>content1 </b>
+                                <br />info here
+                            </p>  
+                            <div>
+                                <p>View comments or leave comments here in discussion forum</p>
+                            </div>    
+                        </div>  
+                        <h3 className="disscusionForum">Disscusion Forum</h3> 
+                             
                  </div>
                  <PostsPage category='internationalStudents'/>
                  

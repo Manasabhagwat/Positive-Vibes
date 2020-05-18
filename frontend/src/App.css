@@ -199,3 +199,11 @@ button.btn.btn-primary {
     margin-bottom: 0px;
   }
 
+  .dissusionForum {
+    font-style: cursive;
+    text-align: center;
+  }
+
+  h5{
+    margin-top: 20px !important;
+  }
