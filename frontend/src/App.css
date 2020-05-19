@@ -144,22 +144,22 @@
 }
 
 #image1{
-  background-image:url('./components/home/under3Years.png');
+  background-image:url('./components/home/Images/under3Years.png');
   }
 #image2{
-  background-image:url('./components/home/Age3To6Years.png');
+  background-image:url('./components/home/Images/Age3To6Years.png');
 }
 
 #image3{
-  background-image:url('./components/home/Age6To15Years.png');
+  background-image:url('./components/home/Images/Age6To15Years.png');
 }
 
 #image4{
-  background-image:url('./components/home/Age15To21Years.png');
+  background-image:url('./components/home/Images/Age15To21Years.png');
 }
 
 #image5{
-background-image:url('./components/home/InternationalStudents.png');
+background-image:url('./components/home/Images/InternationalStudents.png');
 }
 button.btn.btn-primary {
   margin: 20px;
