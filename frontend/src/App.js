@@ -17,11 +17,13 @@ import Age15To21 from "./components/home/Age15To21";
 import InternationalSt from "./components/home/InternationalSt";
 import PostsPage from "./components/posts/PostsPage";
 import AboutUs from "./components/home/AboutUs";
+import { Responsive } from "./Responsive.js";
 
 function App() {
 
   const router = (
             <Router>
+                 <Responsive displayIn={["Laptop","Mobile", "Tablet","Desktop"]}>
                 <Navbar fixed="top"/>
                
 
@@ -65,7 +67,7 @@ function App() {
                     </Switch>
                 </div>
              < Footer fixed="bottom"/>
-
+             </Responsive>
             </Router>
   );
 

@@ -5,7 +5,7 @@ import { Container, Row, Col, Spinner } from 'react-bootstrap';
 function Footer() {
     return (
         <div>
-            <Container id="margin1">
+            <Container id="margin">
 
                     <Row>
                         <Col>
