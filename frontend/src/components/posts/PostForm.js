@@ -28,9 +28,14 @@ class PostForm extends React.Component {
         
     render() {
         return (
-            <Row>
-               <h4>What to share your positive experience? Type below and press post... </h4>
-                <div className="card mt-3 ml-3 col-md-11">
+            <>
+            <h5>What to share your positive experience....?</h5>
+            <Row> 
+               <button className="btn btn-secondary col-md-4" type="button" data-toggle="collapse" data-target={"#collapsePostForm"} aria-expanded="false" aria-controls={"#collapse"}>
+                    Click here                    
+                    </button>
+  
+                <div id="collapsePostForm" className="collapse card mt-3 ml-3 col-md-11">
                     <div className="card-body ">          
                             <div className="form-group row">
                                 <label for="heading" class="col-sm-2 col-form-label">Heading</label>
@@ -62,6 +67,7 @@ class PostForm extends React.Component {
                     </div>
                 </div>
             </Row>
+            </>
         )
     }
     
