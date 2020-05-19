@@ -28,7 +28,7 @@ class Age15To21 extends Component {
                                     </div>
                                 
                          </div>
-                         <h3 className="disscusionForum">Disscusion Forum</h3>    
+                         <h3 className="disscusionForum">Disscusion Forum</h3>        
                  </div>
                  <PostsPage category='15to21'/>
              </div>
