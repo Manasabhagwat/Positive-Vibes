@@ -9,19 +9,21 @@ function Navbar() {
     return (
        <div>
            
-           <Container id = "margin">
-              <Row >
-                        < Col>
-                            <img src={logo}  className ="header-img" />
-                        </Col>   
-                        <Col id = "colsetting col-md-1">
-                            <h1>Positive Vibes</h1>
-                        </Col>    
-                        <Col id = "headerLink">
-                         <Link  style={{to:"#"}}>All Info about Covid-19</Link>
-                        </Col>      
-              </Row> 
-            </Container>
+           <Container id = "margin" >
+               
+               <Row >
+                         < Col  >
+                             <img src={logo}  className ="header-img" />
+                         </Col >   
+                         <Col className ="header-name" >
+                             <h2>  Positive Vibes   </h2>
+                         </Col>    
+                         <Col  id ="headerLink">
+                          <Link  style={{to:"#"}}>All Info about Covid-19</Link>
+                         </Col>      
+               </Row> 
+             </Container>
+     
        
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a className="navbar-brand" href="#">Positive Vibes</a>
