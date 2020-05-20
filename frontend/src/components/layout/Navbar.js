@@ -15,7 +15,7 @@ function Navbar() {
                          < Col  >
                              <img src={logo}  className ="header-img" />
                          </Col >   
-                         <Col className ="header-name" >
+                         <Col className ="header-name text-white" >
                              <h2>  Positive Vibes   </h2>
                          </Col>    
                          <Col  id ="headerLink">

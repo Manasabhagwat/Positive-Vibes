@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
 import SideBar from "../layout/SideBar.js";
-import ExampleChart from "./ExampleChart.js";
 
 
 class HomePage extends Component {
@@ -38,7 +37,6 @@ class HomePage extends Component {
                                <p>  There is no currently available vaccine for COVID-19. However, many of the symptoms can be treated and getting early care from a healthcare provider can make the disease less dangerous. There are several clinical trials that are being conducted to evaluate potential therapeutics for COVID-19.
                                </p></p>  
                         </div>  
-                        <ExampleChart/>
                  </div>  
              </div>
 
