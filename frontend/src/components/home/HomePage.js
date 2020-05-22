@@ -12,6 +12,7 @@ class HomePage extends Component {
                  <div className="row">
                     <div className="col-sm-3">
                        <SideBar/>
+                     
                     </div>
                         <div className="col-xs-12 col-md-9" id ="Covid_Info" >
                             <h2> Covid -Information</h2> 
