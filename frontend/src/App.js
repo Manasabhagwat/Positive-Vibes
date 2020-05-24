@@ -37,6 +37,7 @@ function App() {
                         <Route path="/otherInformation">
                             <OtherInformation/>
                         </Route>
+
                         
                         <Route path="/aboutUs">
                             <AboutUs/>

@@ -29,9 +29,9 @@ class AllInfo extends Component {
 
                 <div >
                      <div className="row">
-                        <div className="col-sm-3">
+                       
                         <SideBar/> 
-                        </div>
+                      
                             <div className="col-sm-9 " id ="Covid_Info"  >
                                 <h4> Covid cases in World</h4> 
                                 <ul>

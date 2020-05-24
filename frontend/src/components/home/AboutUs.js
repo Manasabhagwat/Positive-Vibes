@@ -15,9 +15,9 @@ class AboutUs extends Component {
         return (
             <div >
                  <div className="row">
-                    <div className="col-sm-3">
+                
                      <SideBar/>                  
-                    </div>
+            
 
                     <div className="col-sm-9" id ="Covid_Info" >
                         <div class="bigger" id="about-image">

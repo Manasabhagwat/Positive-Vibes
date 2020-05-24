@@ -12,9 +12,7 @@ class Age3To6 extends Component {
 
             <div>
                 <div className="row">
-                    <div className="col-sm-3">
                         <SideBar />
-                    </div>
                     <div className="col-sm-9" id="Covid_Info" >
                         <div class="bigger" id="image2">
                             <div class="smaller"><h3>Age 3 To 6 Years</h3></div>
