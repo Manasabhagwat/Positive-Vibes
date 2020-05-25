@@ -4,5 +4,5 @@ frontend/node_modules
 .classpath
 .project
 .settings/
-frontend/package.json
-frontend/package-lock.json
+.package-lock.json
+.package.json

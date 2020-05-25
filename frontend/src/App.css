@@ -8,6 +8,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.tranperency {
+  opacity: 0.5;
+}
+.transbox {
+  margin: 30px;
+  background-color: rgb(211, 203, 203);
+  opacity: 0.6;
+}
+.transbox a {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
 
 .App-link {
   color: #09d3ac;
@@ -87,12 +100,22 @@
   font-size: large;
   color: black;
 }
-
+.image_gradient{
+  height:250px;
+  border: 1px solid black;
+}
 .sidebar{
   column-width:80px;
-  background-color: black;
+  background-color: rgb(157, 233, 157);
 }
-
+.Child_text{
+  padding-top: 35px;
+  font-size: 20px;
+}
+.a {
+  color:#0f0f0f;
+  font-weight: 700;
+  }
 .bigger{
   width:100%;
   height:200px;
@@ -122,11 +145,16 @@
 }
 
 #image3{
-  background-image:url('./components/home/Images/Age6To15Years.png');
+  background-image:url('./components/home/Images/Age6To15Years.jpg');
 }
 
 #image4{
   background-image:url('./components/home/Images/Age15To21Years.png');
+}
+
+#colour{
+  background-image: linear-gradient(lightblue,rgba(252, 70, 107, 100));
+  max-width: 50%;
 }
 
 #image5{
@@ -199,15 +227,57 @@ button.btn.btn-primary {
   }
    
     
-  .bigger{
-    width:60%;
-    height:80px;
-    background-size:cover;
-    background-position:center;
-    position:relative;
-    border-style: solid;
-    box-shadow:black;
-  }
+     .bigger{
+       width:60%;
+       height:80px;
+       background-size:cover;
+       background-position:center;
+       position:relative;
+       border-style: solid;
+       box-shadow:black;
+     }
+
+    }
+   @media only screen and (min-width: 400px)  {
+
+
+    .header-name{
+     text-align: center;
+      font-size: xx-large;
+      align-self: flex-start;
+      padding-top: 30px;
+      }
+
+     #margin{
+       margin-left: 0px;
+       margin-right: 0px;
+       margin-top: 10px;
+       margin-bottom: 0px;
+       max-width: 100%;
+       height: 120%;
+       background-color:rgb(144, 207, 246);
+        padding-top: 2%;
+       display: inline-block;
+       font-size:medium;
+     }
+     #headerLink{
+      padding-top: 60px;
+      font-size: medium;
+      color: black;
+     }
+   }
+
+   #about-image{
+    background-image:url('./components/home/aboutUs.jpg');
+    }
+    
+  
+  
+  .dissusionForum {
+    font-style: cursive;
+    text-align: center;
+    background-color: rgb(184, 243, 184);
+    max-width: 100%;
 }
 
 @media only screen and (min-width: 400px)  {
@@ -234,16 +304,15 @@ button.btn.btn-primary {
 
   #headerLink{
     padding-top: 60px;
-    font-size: medium;
+    font-size: medium;   
     color: black;
   }
 
   #margin {
     background-image: url('./covid-19-blue.png');
     background-size: 100%;
-  
+  }
 }
-
 .box3{box-shadow:0 0 3px rgba(0,0,0,.3);position:relative}
 .box3 .box-content,.box3:after,.box3:before{position:absolute;left:7%;right:7%;transition:all .3s}
 .box3:after,.box3:before{display:block;background:rgba(0,0,0,.3);top:10%;bottom:10%;z-index:1;transform:scale(0,1)}
@@ -273,9 +342,9 @@ button.btn.btn-primary {
 .box3 .box-content{padding:10px}
 .box3 .description{margin-bottom:10px}
 }
+
 @media only screen and (max-width:479px){.box3 .title{margin:0}
 }
-
 
 .row.mt-30 {
   padding-bottom: 30px;

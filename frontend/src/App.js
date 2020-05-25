@@ -12,6 +12,7 @@ import HomePage from './components/home/HomePage';
 import OtherInformation from "./components/home/OtherInformation";
 import Under3Years from "./components/home/Under3Years";
 import Age3To6 from "./components/home/Age3To6";
+import AllInfo from "./components/home/AllInfo";
 import Age6To15 from "./components/home/Age6To15";
 import Age15To21 from "./components/home/Age15To21";
 import InternationalSt from "./components/home/InternationalSt";
@@ -60,8 +61,11 @@ function App() {
                             <Age15To21/>
                         </Route>
 
-                        <Route path="/InternationalStudents">
+                        <Route path="/InternationalSt">
                             <InternationalSt/>
+                        </Route>
+                        <Route path="/AllInfo">
+                            <AllInfo/>
                         </Route>
                         <Route path="/PostsPage">
                             <PostsPage/>

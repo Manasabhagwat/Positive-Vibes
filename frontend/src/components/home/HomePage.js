@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
-import { Container, Row, Col, Spinner } from 'react-bootstrap';
-import Alert from 'react-bootstrap/Alert';
 import SideBar from "../layout/SideBar.js";
 import coronaVirus from "./Images/corona-virus.png"
 import coronaSymptoms from "./Images/coronaSymptoms.jpg"
@@ -21,10 +18,6 @@ class HomePage extends Component {
         </div>
         <div class="row">
             <SideBar/>
-            
-
-                    
-            
             <div className="col-md-9">
             <div class="row mt-30">
                 <div class="col-md-4 col-sm-6">

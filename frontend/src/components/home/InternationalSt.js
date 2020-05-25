@@ -1,41 +1,127 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { Container, Row, Col, Spinner } from 'react-bootstrap';
-import Alert from 'react-bootstrap/Alert';
 import PostsPage from "../posts/PostsPage";
 import SideBar from '../layout/SideBar.js';
- 
+import Lund from './Images/LundUniversity.png';
+import Card from 'react-bootstrap/Card';
+import KTH from "./Images/KTHLOGO.jpg";
+import Linköping from "./Images/Linköping.jpg";
+import Karolinska from "./Images/KarolinskaInstitute.png";
+import BTH from "./Images/BTH.png";
+import Dalarna from "./Images/DalarnaUniversity.png";
+import Jönköping from "./Images/Jönköping.png";
+import Uppsala from "./Images/Uppsalauniversity.png";
+import Goteborg from "./Images/GoteborgsUniversity.png";
+import CardColumns from 'react-bootstrap/CardGroup';
+
 class InternationalSt extends Component {
     render() {
         return (
-           
-
             <div>
-                 <div className="row">
-                    
-                    <SideBar/> 
-                
-                        <div className="col-sm-9" id ="Covid_Info" >
-                           <div className="bigger" id="image5">
-                                <div className="smaller"><h3>International Students</h3></div>
-                            </div> 
-                            <h2> heading here</h2> 
-                            <p> <b>content1 </b>
-                                <br />info here
-                            </p>  
-                            <div>
-                                <p>View comments or leave comments here in discussion forum</p>
-                            </div>    
-                        </div>  
-                        <h3 className="disscusionForum">Disscusion Forum</h3> 
-                             
-                 </div>
-                 <PostsPage category='internationalStudents'/>
-                 
-             </div>
-           
-         
-           
+                <div className="row">
+                    <div className="col-sm-3">
+                        <SideBar />
+                    </div>
+                    <div className="col-sm-9" id="Covid_Info" >
+                        <div class="bigger" id="image5">
+                            <div class="smaller"><h3>University Students</h3></div>
+                        </div>
+                       <div className="Child_text">
+                           <p><b>HOW IS COVID-19 AFFECTING STUDYING IN SWEDEN?</b></p>
+                           <p>We know that Covid-19 is on many people’s minds right now. It’s certainly on ours at the moment. We’re in the middle of a major development across the continent, so we’re monitoring the situation very closely.</p>
+                           <p><b>Keep up to date with what’s happening in Sweden</b></p>
+                           <p>As you know, there’s currently a temporary ban on all non-essential travel to Sweden due to Covid-19. This temporary ban was put in place on 19 March, and is set to last until 15 June (updated 14/5). And several Swedish missions abroad may be limited in their capacity to assist in the processing of residence permit applications within normal timeframes. This may change as the situation evolves, and as soon as we have more answers, we’ll update this information.</p>
+                           <p><b>Currently studying at a Swedish university?</b></p>
+                           <p>Business as usual? Well, not quite. Teaching will continue, though from now on it will be online.
+                             On 17 March, the Swedish government and the Public Health Agency of Sweden recommended that all Swedish universities change over to distance learning from 18 March.
+                             Unsure what this means for you? Don’t worry. You’ll receive more info from your university.</p>
+                           <p><b>Applied to study in Sweden this autumn?</b></p>
+                           <p>You may be wondering whether Covid-19 will affect your application. And here’s some good news. It won’t. You can expect to receive your admissions results on 3 April (master’s) or 20 April (bachelor’s).</p>
+                           <p><b>Admitted to study in Sweden this autumn?</b></p>
+                           <p>Congratulations! Even in this uncertain time, this is something to celebrate. But we know that you have a whole load of questions for us. Like: Will my university be open this autumn? Will I even be able to move to Sweden? We don’t have all the answers right now. But we’ll make sure you’re updated with the latest information</p>
+                        </div>
+                        <CardColumns>
+                            <Card className="bg-dark text-black">
+                                <Card.Img className="image_gradient" src={KTH} alt="Card image" />
+                                <Card.ImgOverlay>
+                                    <Card.Text className="transbox">
+                                        <a className="a" href='https://intra.kth.se/en/campus/sakerhet/kris/corona/information-till-studenter-med-anledning-av-coronaviruset-1.965905'>KTH-University</a>
+                                    </Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                            <Card className=" text-black">
+                                <Card.Img className="image_gradient" src={Linköping} alt="Card image" />
+                                <Card.ImgOverlay>
+                                    <Card.Text className="transbox">
+                                        <a className="a" href="https://insidan.liu.se/HR-Personal/coronavirus?l=sv">Linköping-University</a>
+                                    </Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                            <Card className=" text-blank">
+                                <Card.Img className="image_gradient" src={Karolinska} alt="Card image" />
+                                <Card.ImgOverlay>
+                                    <Card.Text className="transbox">
+                                        <a className="a" href="https://news.ki.se/information-about-the-coronavirus-for-staff-and-students">Karolinska-University</a>
+                                    </Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </CardColumns>
+                        <CardColumns>
+                            <Card className="bg-dark text-black">
+                                <Card.Img className="image_gradient" src={Lund} alt="Card image" />
+                                <Card.ImgOverlay>
+                                    <Card.Text className="transbox">
+                                    <a className="a" href="https://www.lu.se/studera/coronavirusetcovid-19-information-for-studenter#">Lund-University</a>
+                                    </Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                            <Card className="bg-dark text-black">
+                                <Card.Img className="image_gradient" src={BTH} alt="Card image" />
+                                <Card.ImgOverlay>
+                                    <Card.Text className="transbox">
+                                        <a className="a" href="https://www.bth.se/eng/emergency/corona/information-for-students/">BTH-Universioty</a>
+                                    </Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                            <Card className="bg-dark text-blank">
+                                <Card.Img className="image_gradient" src={Dalarna} alt="Card image" />
+                                <Card.ImgOverlay>
+                                    <Card.Text>
+                                        <a className="a" href="https://www.du.se/en/information-about-the-coronavirus-for-staff-and-students/">Dalarna-University</a>
+                                    </Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </CardColumns>
+                        <CardColumns>
+                            <Card className="bg-dark text-black">
+                                <Card.Img className="image_gradient" src={Jönköping} alt="Card image" />
+                                <Card.ImgOverlay>
+                                    <Card.Text>
+                                        <a className="a" href='https://ju.se/om-oss/jonkoping-university/informationsmaterial/uppdaterad-information-med-anledning-av-coronaviruset.html'>Jönköping-University</a>
+                                    </Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                            <Card className="bg-dark text-black">
+                                <Card.Img className="image_gradient" src={Goteborg} alt="Card image" />
+                                <Card.ImgOverlay>
+                                    <Card.Text>
+                                        <a className="a" href="https://studentportal.gu.se/english/coronavirus;jsessionid=lfnyo9i1p2ejvo7zhty8zlaf?skipSSOCheck=true&referer=https%3A%2F%2Futbildning.gu.se%2Feducation%2Fincoming-student%2Fcovid19">Goteborg-University</a>
+                                    </Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                            <Card className="bg-dark text-blank">
+                                <Card.Img className="image_gradient" src={Uppsala} alt="Card image" />
+                                <Card.ImgOverlay>
+                                    <Card.Text>
+                                        <a className="a" href="https://www.uu.se/en/students/recommendations-on-coronavirus/">Uppsala-University</a>
+                                    </Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </CardColumns>
+                    </div>
+                    <h3 className="disscusionForum">Disscusion Forum</h3>
+                </div>
+                <PostsPage category='InternationalSt' />
+            </div>
         );
     }
 }

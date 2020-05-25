@@ -12,13 +12,13 @@ function Navbar() {
                
                <Row >
                          < Col  >
-                             <img src={logo}  className ="header-img" />
+                        <img src={logo}  className ="header-img" />
                          </Col >   
                          <Col className ="header-name text-white" >
                              <h2>  Positive Vibes   </h2>
                          </Col>    
                          <Col  id ="headerLink">
-                          <Link  style={{to:"#"}}>All Info about Covid-19</Link>
+                          <Link to="/AllInfo"> Covid_19 cases info</Link>
                          </Col>      
                </Row> 
              </Container>

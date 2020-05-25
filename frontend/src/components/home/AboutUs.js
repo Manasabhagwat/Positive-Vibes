@@ -17,20 +17,12 @@ class AboutUs extends Component {
                  <div className="row">
                     <div className="col-sm-9" id ="Covid_Info" >
                         <div class="bigger" id="about-image">
-                        </div>
                     </div>
-                    <div className="aboutus-Setting" >
-                        <p> <b>
-                            Look around you. In some way, right now, regardless of what happened 20 minutes ago or this morning or yesterday, you have a chance to shift your focus. Find something positive. Express gratitude for it. Thank it. Appreciate it. Love on it. Use it to lift your mood. Raise your frequency. Have fun with it.
-                       <br /> It can be small.
-                       <br /> It might be hard to find.
-                       <br /> And you might feel It’d be insignificant to someone else…but that doesn’t matter because if it brings YOU joy, if it allows YOU to burn with a bright firey energy, then it is NOT insignificant.
-                       <br /> Because when you are focused on your positive vibes, you’ll infect those around you with positive vibes.
-                       <br /> What you focus on is what you create more of.
-
-                       </b></p>
-                    </div>
-
+                       <div className="Child_text">
+                     <p><i>As we hear Covid 19 first thing that comes to our minds is fear hence  we were interested to share our positive experiences because of Covid 19 ? People are struggling to lead normal life and motivating themselves to be normal. So we want to spread some positivity and give some motivations to all the students of different age groups by suggesting activities and by providing some important details for their schoolings. Keeping discussions forum in our website we believe we are bringing everyone together too. Say we save lot of travel time. That time we are able to spend with our dear ones and kids.We kept student group as target group since it can be one place for kids parents and adults anyone to get the information.</i></p>
+                      <p><i>The discussion forum is an open place for anyone to discuss on any topic for that category or any doubts were other can give suggestions. So they can share their positivity to other and motivate them.</i></p> 
+                       </div>
+                       </div >
                     <Container className="aboutUs-Container">
                     <hr className="hrset" />
                         <Row> 
