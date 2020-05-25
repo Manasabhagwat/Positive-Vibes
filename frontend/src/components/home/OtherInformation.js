@@ -7,12 +7,9 @@ class OtherInformation extends Component {
             <div>
                 <div className="row">
                    
-                        <SideBar />
-                   
-                    <div className="col-xs-12 col-md-9" id="Covid_Info" >
+                    <div id="Covid_Info" >
                         <h2> Stuck at Home?</h2>
-                        <p>A quarter of the world’s humans are at home right now. If you’re reading this, chances are you’re one of them. Yes, it’s important to stay safe indoors to protect ourselves and others – but that doesn’t mean we can’t have a good time.<br></br> our mission to bring you the best culture, entertainment, food and fun from around the world hasn’t changed.</p>
-                       
+                        <p>A quarter of the world’s humans are at home right now. If you’re reading this, chances are you’re one of them. Yes, it’s important to stay safe indoors to protect ourselves and others – but that doesn’t mean we can’t have a good time. Our mission to bring you the best culture, entertainment, food and fun from around the world hasn’t changed.</p>
                         <h4>More things to do in quarantine</h4>
                         <h5>Culture</h5>
                         <p>Explore the architecture and history of Rome, walking around a 3D digital model of the ancient city, with this <a href='https://www.futurelearn.com/courses/rome?utm_source=fl_blog&utm_medium=organic&utm_campaign=covid_content'>free online course.</a></p>
