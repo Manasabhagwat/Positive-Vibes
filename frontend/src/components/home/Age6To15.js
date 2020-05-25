@@ -100,9 +100,6 @@ class Age6To15 extends Component {
             <PostsPage category='6to15' />
 
         </div>
-
-
-
     );
 }
 }           

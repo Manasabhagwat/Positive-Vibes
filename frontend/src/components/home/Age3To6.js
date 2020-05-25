@@ -11,12 +11,9 @@ import CardColumns from 'react-bootstrap/CardGroup';
 class Age3To6 extends Component {
     render() {
         return (
+<>
             <div>
-                <div className="row">
-                    <div className="col-sm-3">
-                        <SideBar />
-                    </div>
-                    <div className="col-sm-9" id="Covid_Info" >
+                    <div id="Covid_Info" >
                         <div class="bigger" id="image2">
                             <div class="smaller"><h3>Age 3 to 6Years</h3></div>
                         </div>
@@ -77,13 +74,9 @@ class Age3To6 extends Component {
                         </CardColumns>
                     </div>
                     <h3 className="disscusionForum">Disscusion Forum</h3>
-                </div>
                 <PostsPage category='3to6' />
-
-            </div>
-
-
-
+                </div>
+  </>
         );
     }
 }

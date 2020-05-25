@@ -6,9 +6,9 @@ class OtherInformation extends Component {
         return (
             <div>
                 <div className="row">
-                    <div className="col-sm-3">
+                   
                         <SideBar />
-                    </div>
+                   
                     <div className="col-xs-12 col-md-9" id="Covid_Info" >
                         <h2> Stuck at Home?</h2>
                         <p>A quarter of the world’s humans are at home right now. If you’re reading this, chances are you’re one of them. Yes, it’s important to stay safe indoors to protect ourselves and others – but that doesn’t mean we can’t have a good time.<br></br> our mission to bring you the best culture, entertainment, food and fun from around the world hasn’t changed.</p>

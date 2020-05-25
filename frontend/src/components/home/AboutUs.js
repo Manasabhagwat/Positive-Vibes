@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import aboutUs from "./aboutUs.jpg";
+import { Link } from "react-router-dom";
+import { Container, Row, Col, Spinner } from 'react-bootstrap';
+import Alert from 'react-bootstrap/Alert'
 import Shikha from "./Images/shikha.png";
 import Archana from "./Images/Archana.png";
 import Veena from "./Images/Veena.png";
@@ -10,12 +13,8 @@ import SideBar from "../layout/SideBar.js";
 class AboutUs extends Component {
     render() {
         return (
-            <div >
+            <div>
                  <div className="row">
-                    <div className="col-sm-3">
-                     <SideBar/>                  
-                    </div>
-
                     <div className="col-sm-9" id ="Covid_Info" >
                         <div class="bigger" id="about-image">
                     </div>
@@ -68,7 +67,7 @@ class AboutUs extends Component {
                         </Row>
                     </Container>
                 </div>
-
+   
             </div>
        
         );

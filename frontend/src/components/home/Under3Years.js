@@ -13,9 +13,9 @@ class Under3Years extends Component {
 
             <div>
                 <div className="row">
-                    <div className="col-sm-3">
+                    
                         <SideBar />
-                    </div>
+               
                     <div className="col-sm-9" id="Covid_Info" >
                         <div class="bigger" id="image1">
                             <div class="smaller"><h3>Under 3Years</h3></div>
