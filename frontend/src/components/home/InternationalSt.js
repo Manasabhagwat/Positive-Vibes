@@ -12,9 +12,9 @@ class InternationalSt extends Component {
 
             <div>
                  <div className="row">
-                    <div className="col-sm-3">
+                    
                     <SideBar/> 
-                    </div>
+                
                         <div className="col-sm-9" id ="Covid_Info" >
                            <div className="bigger" id="image5">
                                 <div className="smaller"><h3>International Students</h3></div>

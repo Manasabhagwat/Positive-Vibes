@@ -3,40 +3,29 @@ import aboutUs from "./aboutUs.jpg";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert'
-import Shikha from "./Images/Shikha.png";
+import Shikha from "./Images/shikha.png";
 import Archana from "./Images/Archana.png";
 import Veena from "./Images/Veena.png";
 import Manasa from "./Images/Manasa.png";
 import Vanitha from "./Images/Vanitha.png";
 import SideBar from "../layout/SideBar.js";
 
-
 class AboutUs extends Component {
     render() {
         return (
-            <div >
+            <div>
                  <div className="row">
-                 <div className="col-sm-3">
-                     <SideBar/>                  
-                    </div>
-
                     <div className="col-sm-9" id ="Covid_Info" >
                         <div class="bigger" id="about-image">
-                                
-                    
-                </div>
-              
-                </div >
+                        </div>
+                    </div>
                     <div className="aboutus-Setting" >
                         <p> <b>
                             Look around you. In some way, right now, regardless of what happened 20 minutes ago or this morning or yesterday, you have a chance to shift your focus. Find something positive. Express gratitude for it. Thank it. Appreciate it. Love on it. Use it to lift your mood. Raise your frequency. Have fun with it.
-
                        <br /> It can be small.
                        <br /> It might be hard to find.
                        <br /> And you might feel It’d be insignificant to someone else…but that doesn’t matter because if it brings YOU joy, if it allows YOU to burn with a bright firey energy, then it is NOT insignificant.
-
                        <br /> Because when you are focused on your positive vibes, you’ll infect those around you with positive vibes.
-
                        <br /> What you focus on is what you create more of.
 
                        </b></p>
@@ -86,7 +75,7 @@ class AboutUs extends Component {
                         </Row>
                     </Container>
                 </div>
-
+   
             </div>
        
         );

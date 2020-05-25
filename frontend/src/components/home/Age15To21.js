@@ -12,9 +12,9 @@ class Age15To21 extends Component {
 
             <div>
                  <div className="row">
-                    <div className="col-sm-3">
+                    
                     <SideBar/> 
-                    </div>
+                   
                         <div className="col-sm-9" id ="Covid_Info" >
                            <div class="bigger" id="image4">
                                 <div class="smaller"><h3>Age 15 To 21 Years</h3></div>

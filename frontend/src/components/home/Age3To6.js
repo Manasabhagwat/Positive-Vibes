@@ -8,8 +8,7 @@ import SideBar from '../layout/SideBar.js';
 class Age3To6 extends Component {
     render() {
         return (
-
-            <div>
+<>
             <div>
                     <div id="Covid_Info" >
                         <div class="bigger" id="image2">
@@ -23,8 +22,8 @@ class Age3To6 extends Component {
                     <h3 className="disscusionForum">Disscusion Forum</h3>
                 <PostsPage category='3to6' />
                 </div>
-                </div>
-            </div>
+          </div>
+  </>
         );
     }
 }
