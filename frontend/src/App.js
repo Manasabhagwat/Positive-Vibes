@@ -19,6 +19,7 @@ import PostsPage from "./components/posts/PostsPage";
 import AboutUs from "./components/home/AboutUs";
 import { Responsive } from "./Responsive.js";
 
+
 function App() {
 
   const router = (
