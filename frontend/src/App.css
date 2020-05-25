@@ -18,6 +18,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.tranperency {
+  opacity: 0.5;
+}
+.transbox {
+  margin: 30px;
+  background-color: rgb(211, 203, 203);
+  opacity: 0.6;
+}
+.transbox a {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
 
 .App-link {
   color: #09d3ac;
@@ -94,15 +107,23 @@
   padding-top: 60px;
   font-size: large;
   color: black;
-  
 }
-
+.image_gradient{
+  height:250px;
+  border: 1px solid black;
+}
 .sidebar{
   column-width:80px;
-  background-color: black;
-  
+  background-color: rgb(157, 233, 157);
 }
-
+.Child_text{
+  padding-top: 35px;
+  font-size: 20px;
+}
+.a {
+  color:#0f0f0f;
+  font-weight: 700;
+  }
 .bigger{
   width:100%;
   height:200px;
@@ -130,11 +151,16 @@
 }
 
 #image3{
-  background-image:url('./components/home/Images/Age6To15Years.png');
+  background-image:url('./components/home/Images/Age6To15Years.jpg');
 }
 
 #image4{
   background-image:url('./components/home/Images/Age15To21Years.png');
+}
+
+#colour{
+  background-image: linear-gradient(lightblue,rgba(252, 70, 107, 100));
+  max-width: 50%;
 }
 
 #image5{
@@ -218,9 +244,11 @@ button.btn.btn-primary {
        border-style: solid;
        box-shadow:black;
      }
-   }
+
+   
    @media only screen and (min-width: 400px)  {
      
+  }
 
     .header-name{
      text-align: center;
@@ -257,8 +285,11 @@ button.btn.btn-primary {
   .dissusionForum {
     font-style: cursive;
     text-align: center;
+    background-color: rgb(184, 243, 184);
+    max-width: 100%;
   }
 
   h5{
     margin-top: 20px !important;
   }
+ 
