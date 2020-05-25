@@ -20,32 +20,37 @@ class AllInfo extends Component {
         if(this.state.jsonObject!=null)  {
             return (
                 <div >
-                     <div className="row">
-                       
-                        <SideBar/> 
+                     <div className="row allInfo-padding">
                       
-                            <div className="col-sm-9 " id ="Covid_Info"  >
-                                <h4 > Covid cases in World</h4> 
-                                <div className="card-body" id="colour">
+                            <div className="col-sm-6 " id ="Covid_Info">
+                                <h4 > Covid Cases in World</h4> 
+                                <div className="card-body colour">
                                 <ul >
-                                <li>Recovered cases= {this.state.jsonObject.data.summary.recovered}</li> 
-                                 <li>Active cases = {this.state.jsonObject.data.summary.active_cases}</li>
-                                 <li>Total cases= {this.state.jsonObject.data.summary.total_cases}</li>
-                                 <li>Critical cases= {this.state.jsonObject.data.summary.critical}</li>
-                                 <li>Death_ratio = {this.state.jsonObject.data.summary.death_ratio}</li>
+                                    <li>Total Cases = {this.state.jsonObject.data.summary.total_cases}</li>
+                                    <li>Tested Cases = {this.state.jsonObject.data.summary.tested}</li>
+                                    <li>Active Cases = {this.state.jsonObject.data.summary.active_cases}</li>
+                                    <li>Recovered Cases = {this.state.jsonObject.data.summary.recovered}</li> 
+                                    <li>Recovery_Ratio = {this.state.jsonObject.data.summary.recovery_ratio}</li> 
+                                    <li>Critical Cases= {this.state.jsonObject.data.summary.critical}</li>
+                                    <li>Death Cases = {this.state.jsonObject.data.summary.deaths}</li> 
+                                    <li>Death_Ratio = {this.state.jsonObject.data.summary.death_ratio}</li>
                                 </ul> 
                                 </div>
-                                <h4> Covid cases in Sweden</h4> 
-                                <div className="card-body" id="colour">
+                                </div>
+                                <div className="col-sm-6" id ="Covid_Info">
+                                <h4> Covid Cases in Sweden</h4> 
+                                <div className="card-body colour">
                                 <ul>
-                                <li>Recovered cases= {this.state.jsonObject.data.regions.sweden.recovered}</li>
-                                 <li>Active cases  = {this.state.jsonObject.data.regions.sweden.active_cases}</li>
-                                 <li>Total cases  = {this.state.jsonObject.data.regions.sweden.total_cases}</li>
-                                 <li>Critical cases= {this.state.jsonObject.data.regions.sweden.critical}</li>
-                                 <li>Death_ratio  {this.state.jsonObject.data.regions.sweden.death_ratio}</li>
+                                    <li>Total Cases = {this.state.jsonObject.data.regions.sweden.total_cases}</li>
+                                    <li>Tested Cases = {this.state.jsonObject.data.regions.sweden.tested}</li>
+                                    <li>Active Cases = {this.state.jsonObject.data.regions.sweden.active_cases}</li>
+                                    <li>Recovered Cases = {this.state.jsonObject.data.regions.sweden.recovered}</li> 
+                                    <li>Recovery_Ratio = {this.state.jsonObject.data.regions.sweden.recovery_ratio}</li> 
+                                    <li>Critical Cases= {this.state.jsonObject.data.regions.sweden.critical}</li>
+                                    <li>Death Cases = {this.state.jsonObject.data.regions.sweden.deaths}</li> 
+                                    <li>Death_Ratio = {this.state.jsonObject.data.regions.sweden.death_ratio}</li>
                                 </ul>
                                 </div>
-                    
                              </div>  
                      </div>  
                  </div>  

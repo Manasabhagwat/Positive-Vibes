@@ -12,9 +12,12 @@ import Jönköping from "./Images/Jönköping.png";
 import Uppsala from "./Images/Uppsalauniversity.png";
 import Goteborg from "./Images/GoteborgsUniversity.png";
 import CardColumns from 'react-bootstrap/CardGroup';
+import Collapse from 'react-bootstrap/Collapse';
 
 class InternationalSt extends Component {
+    
     render() {
+
         return (
             <div>
                 <div className="row">
@@ -24,20 +27,62 @@ class InternationalSt extends Component {
                     <div className="col-sm-9" id="Covid_Info" >
                         <div class="bigger" id="image5">
                             <div class="smaller"><h3>University Students</h3></div>
-                        </div>
+                    </div>
                        <div className="Child_text">
-                           <p><b>HOW IS COVID-19 AFFECTING STUDYING IN SWEDEN?</b></p>
-                           <p>We know that Covid-19 is on many people’s minds right now. It’s certainly on ours at the moment. We’re in the middle of a major development across the continent, so we’re monitoring the situation very closely.</p>
-                           <p><b>Keep up to date with what’s happening in Sweden</b></p>
-                           <p>As you know, there’s currently a temporary ban on all non-essential travel to Sweden due to Covid-19. This temporary ban was put in place on 19 March, and is set to last until 15 June (updated 14/5). And several Swedish missions abroad may be limited in their capacity to assist in the processing of residence permit applications within normal timeframes. This may change as the situation evolves, and as soon as we have more answers, we’ll update this information.</p>
-                           <p><b>Currently studying at a Swedish university?</b></p>
-                           <p>Business as usual? Well, not quite. Teaching will continue, though from now on it will be online.
+
+                            <p><button className="primary1" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                               How Is COVID-19 Affecting Studying In Sweden? 
+                                </button>
+                                <div className="collapse" id="collapseExample">
+                                    <div className="child-card card-body">
+                                    <p>
+                                    We know that Covid-19 is on many people’s minds right now. It’s certainly on ours at the moment. We’re in the middle of a major development across the continent, so we’re monitoring the situation very closely.</p>
+                                    </div>
+                                </div>
+                            </p>                      
+
+                           <p><button className="primary1" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                               Keep up to date with what’s happening in Sweden
+                               </button>
+                               <div className="collapse" id="collapseExample1">
+                                    <div className="child-card card-body">
+                                        <p>As you know, there’s currently a temporary ban on all non-essential travel to Sweden due to Covid-19. This temporary ban was put in place on 19 March, and is set to last until 15 June (updated 14/5). And several Swedish missions abroad may be limited in their capacity to assist in the processing of residence permit applications within normal timeframes. This may change as the situation evolves, and as soon as we have more answers, we’ll update this information.</p>
+                                    </div>
+                                </div>
+                            </p>
+
+                           <p><button className="primary1" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                               Currently studying at a Swedish university?
+                               </button>
+                               <div className="collapse" id="collapseExample2">
+                                    <div className="child-card card-body">
+                                        <p>Business as usual? Well, not quite. Teaching will continue, though from now on it will be online.
                              On 17 March, the Swedish government and the Public Health Agency of Sweden recommended that all Swedish universities change over to distance learning from 18 March.
                              Unsure what this means for you? Don’t worry. You’ll receive more info from your university.</p>
-                           <p><b>Applied to study in Sweden this autumn?</b></p>
-                           <p>You may be wondering whether Covid-19 will affect your application. And here’s some good news. It won’t. You can expect to receive your admissions results on 3 April (master’s) or 20 April (bachelor’s).</p>
-                           <p><b>Admitted to study in Sweden this autumn?</b></p>
-                           <p>Congratulations! Even in this uncertain time, this is something to celebrate. But we know that you have a whole load of questions for us. Like: Will my university be open this autumn? Will I even be able to move to Sweden? We don’t have all the answers right now. But we’ll make sure you’re updated with the latest information</p>
+                                    </div>
+                                </div>
+                            </p>
+
+
+                           <p><button className="primary1" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                               Applied to study in Sweden this autumn?
+                               </button>
+                               <div className="collapse" id="collapseExample3">
+                                    <div className="child-card card-body">
+                                        <p>You may be wondering whether Covid-19 will affect your application. And here’s some good news. It won’t. You can expect to receive your admissions results on 3 April (master’s) or 20 April (bachelor’s).</p>
+                                    </div>
+                                </div>
+                            </p>
+
+                             <p><button className="primary1" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                                 Admitted to study in Sweden this autumn?
+                                 </button>
+                                 <div className="collapse" id="collapseExample4">
+                                    <div className="child-card card-body">
+                                         <p>Congratulations! Even in this uncertain time, this is something to celebrate. But we know that you have a whole load of questions for us. Like: Will my university be open this autumn? Will I even be able to move to Sweden? We don’t have all the answers right now. But we’ll make sure you’re updated with the latest information</p>
+                                    </div>
+                                </div>
+                                </p>
                         </div>
                         <CardColumns>
                             <Card className="bg-dark text-black">
@@ -125,5 +170,6 @@ class InternationalSt extends Component {
         );
     }
 }
+
 
 export default InternationalSt;

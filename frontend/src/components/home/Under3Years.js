@@ -13,23 +13,37 @@ class Under3Years extends Component {
 
             <div>
                 <div className="row">
-                    
+                <div className="col-sm-3">
                         <SideBar />
-               
+                    </div>
                     <div className="col-sm-9" id="Covid_Info" >
                         <div class="bigger" id="image1">
                             <div class="smaller"><h3>Under 3Years</h3></div>
                         </div>
                         <div className="Child_text">
-                        <p >Self-care is not selfish or indulgent—it’s how we keep ourselves well to ensure we are physically, emotionally, and mentally capable of being there for our young children.
-                        Parenting a young child is already stressful at times. That’s why it’s important to remember to take care of yourself, too. When you feel calmer, it’s easier to be there for your children and meet their needs.
-                        Most everyone has heard the flight attendant tell them to put their own oxygen mask on before helping others. The same goes for parenting—your health and well-being is important so that you can nurture your child. Self-care is not selfish or indulgent—it’s how we keep ourselves well to ensure we are physically, emotionally, and mentally capable of being there for our young children.
-                        The realities of COVID-19 make self-care even more important. The unknowns of what’s coming next can worry even the calmest of parents. If faced with long periods of uncertainty, other stressors may emerge—concern for family members, worries about lost income, keeping the fridge full of groceries, balancing job roles with child care, and more. But young children need their parents to offer a calm, stable, and predictable “home base” for them. It’s a challenge, but as a parent, the best way to help your child be at their best is to take care of yourself.</p>
+                        <p><button className="primary1" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+                            Self-Care is not Selfish or Indulgent
+                            </button>
+                            <div className="collapse" id="collapse1">
+                                <div className="child-card card-body">
+                                    <p>-It’s how we keep ourselves well to ensure we are physically, emotionally, and mentally capable of being there for our young children.
+                                Parenting a young child is already stressful at times. That’s why it’s important to remember to take care of yourself, too. When you feel calmer, it’s easier to be there for your children and meet their needs.
+                                Most everyone has heard the flight attendant tell them to put their own oxygen mask on before helping others. The same goes for parenting—your health and well-being is important so that you can nurture your child. Self-care is not selfish or indulgent—it’s how we keep ourselves well to ensure we are physically, emotionally, and mentally capable of being there for our young children.
+                                The realities of COVID-19 make self-care even more important. The unknowns of what’s coming next can worry even the calmest of parents. If faced with long periods of uncertainty, other stressors may emerge—concern for family members, worries about lost income, keeping the fridge full of groceries, balancing job roles with child care, and more. But young children need their parents to offer a calm, stable, and predictable “home base” for them. It’s a challenge, but as a parent, the best way to help your child be at their best is to take care of yourself.</p>
+                                </div>
+                            </div>
+                        </p>
 
-                        <p>
-                            When young children experience a change in their routines, they may be confused or upset. But most children under three lack the words they need to share their feelings. They may “tell” you through their behavior: by being fussy, by withdrawing, by going back to earlier behaviors like
-                            wanting their pacifier or waking frequently at night. It’s easy to become frustrated, since as adults, we’re already managing so much. But when you encounter a challenging behavior, pause to think about what your child might be telling you.
-                            How could you respond in a way that meets their needs best? For example, if your child misses seeing their grandparent who provided child care before COVID-19, you can arrange for a video chat or by explaining the separation. Check out this resource for questions your toddler might have and age-appropriate ways to respond.
+                        <p><button className="primary1" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+                            How to Read Children's Mind
+                            </button>
+                            <div className="collapse" id="collapse2">
+                                <div className="child-card card-body">
+                                    <p>When young children experience a change in their routines, they may be confused or upset. But most children under three lack the words they need to share their feelings. They may “tell” you through their behavior: by being fussy, by withdrawing, by going back to earlier behaviors like
+                                        wanting their pacifier or waking frequently at night. It’s easy to become frustrated, since as adults, we’re already managing so much. But when you encounter a challenging behavior, pause to think about what your child might be telling you.
+                                        How could you respond in a way that meets their needs best? For example, if your child misses seeing their grandparent who provided child care before COVID-19, you can arrange for a video chat or by explaining the separation. Check out this resource for questions your toddler might have and age-appropriate ways to respond.</p>
+                                </div>
+                            </div>
                         </p>
                         </div>
                         <CardColumns>

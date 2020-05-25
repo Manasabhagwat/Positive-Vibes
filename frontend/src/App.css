@@ -152,9 +152,9 @@
   background-image:url('./components/home/Images/Age15To21Years.png');
 }
 
-#colour{
+.colour{
   background-image: linear-gradient(lightblue,rgba(252, 70, 107, 100));
-  max-width: 50%;
+  max-width: 100%;
 }
 
 #image5{
@@ -379,4 +379,30 @@ h5{
 #margin {
   background-image: url('./covid-19-blue.png');
   background-size: 100%;
+}
+
+.primary1{
+  color: black;
+  background-color: white;
+  border-color: black;
+  max-width: 100%;
+}
+
+.child-card{
+  color: rgb(31, 1, 1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(250, 249, 249);
+  opacity: .5;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.allInfo-padding{
+  padding-bottom: 155px;
+  padding-left: 80px;
 }

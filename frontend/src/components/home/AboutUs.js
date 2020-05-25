@@ -3,7 +3,7 @@ import aboutUs from "./aboutUs.jpg";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert'
-import Shikha from "./Images/shikha.png";
+import Shikha from "./Images/Shikha.png";
 import Archana from "./Images/Archana.png";
 import Veena from "./Images/Veena.png";
 import Manasa from "./Images/Manasa.png";
@@ -15,7 +15,7 @@ class AboutUs extends Component {
         return (
             <div>
                  <div className="row">
-                    <div className="col-sm-9" id ="Covid_Info" >
+                    <div id ="Covid_Info" >
                         <div class="bigger" id="about-image">
                     </div>
                        <div className="Child_text">
