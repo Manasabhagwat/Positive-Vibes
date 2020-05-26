@@ -80,7 +80,7 @@ class Age15To21 extends Component {
                                 <Card.Img className="image_gradient" src={Educational} alt="Card image" />
                                 <Card.ImgOverlay>
                                     <Card.Title><u>Educational Activities</u></Card.Title>
-                                    <Card.Text>
+                                    <Card.Text className="transbox ">
                                         <a className="a" href='https://www.udemy.com/'>Online-courses</a>
                                         <p></p>
                                         <a className="a" href='https://www.discoveryeducation.com/'>Lets discover Learning</a>
@@ -93,7 +93,7 @@ class Age15To21 extends Component {
                                 <Card.Img className="image_gradient" src={Fun} alt="Card image" />
                                 <Card.ImgOverlay>
                                     <Card.Title><u>To become more Creative Activities</u></Card.Title>
-                                    <Card.Text>
+                                    <Card.Text className="transbox ">
                                         <a className="a" href="https://www.springboard.com/coursera/listening-to-world-music/">Music World</a>
                                         <p></p>
                                         <a className="a" href="https://www.agame.com/">Online Games</a>
@@ -107,7 +107,7 @@ class Age15To21 extends Component {
                                 <Card.Img className="image_gradient" src={Fitness} alt="Card image" />
                                 <Card.ImgOverlay>
                                     <Card.Title><u>Fitness</u></Card.Title>
-                                    <Card.Text>
+                                    <Card.Text className="transbox ">
                                         <a className="a" href="https://youtu.be/gC_L9qAHVJ8">Lets get fit</a>
                                         <p> </p>
                                         <a className="a" href="https://youtu.be/D80LZz2WkZs">Dance fitness</a>

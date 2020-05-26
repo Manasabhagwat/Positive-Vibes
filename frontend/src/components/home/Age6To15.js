@@ -91,7 +91,7 @@ class Age6To15 extends Component {
                     <p></p>
                     <CardColumns>
                         <Card className="bg-dark text-black">
-                        <Card.Img className="image_gradient" src={Educational} alt="Card image" />
+                        <Card.Img className="image_gradient " src={Educational} alt="Card image" />
                      <Card.ImgOverlay>
                            <Card.Title><u>Educational Activities</u></Card.Title>
                                 <Card.Text>
@@ -104,7 +104,7 @@ class Age6To15 extends Component {
                             </Card.ImgOverlay>
                         </Card>
                         <Card className="bg-dark text-black">
-                            <Card.Img  className="image_gradient" src={Fun} alt="Card image" />
+                            <Card.Img  className="image_gradient tranperency" src={Fun} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title><u>To become more Creative Activities</u></Card.Title>
                             <Card.Text>
@@ -117,7 +117,7 @@ class Age6To15 extends Component {
                              </Card.ImgOverlay>
                              </Card>
                              <Card className="bg-dark text-black">
-                                <Card.Img  className="image_gradient" src={Fitness} alt="Card image"/>
+                                <Card.Img  className="image_gradient tranperency" src={Fitness} alt="Card image"/>
                                  <Card.ImgOverlay>
                                     <Card.Title><u>Fitness</u></Card.Title>
                                 <Card.Text>

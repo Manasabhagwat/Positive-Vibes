@@ -73,7 +73,7 @@ class Age3To6 extends Component {
                                 </Card.ImgOverlay>
                             </Card>
                             <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient" src={Fun} alt="Card image" />
+                                <Card.Img className="image_gradient " src={Fun} alt="Card image" />
                                 <Card.ImgOverlay>
                                     <Card.Title><u>To become more Creative Activities</u></Card.Title>
                                     <Card.Text className="transbox ">

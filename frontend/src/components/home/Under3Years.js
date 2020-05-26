@@ -61,10 +61,10 @@ class Under3Years extends Component {
                                 </Card.ImgOverlay>
                             </Card>
                             <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient tranperency" src={Fun} alt="Card image" />
+                                <Card.Img className="image_gradient tranperency " src={Fun} alt="Card image" />
                                 <Card.ImgOverlay>
                                     <Card.Title>T<u>o become more Creative Activities</u></Card.Title>
-                                    <Card.Text>
+                                    <Card.Text >
                                         <a className="a" href="https://www.funbrain.com/pre-k-and-k-playground">Online Playground </a>
                                         <p></p>
                                         <a className="a" href="https://handsonaswegrow.com/indoor-activities-toddlers/">    Indoor Activities </a>

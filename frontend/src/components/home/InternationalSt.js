@@ -1,18 +1,16 @@
 import React, { Component } from "react";
 import PostsPage from "../posts/PostsPage";
 import SideBar from '../layout/SideBar.js';
-import Lund from './Images/LundUniversity.png';
-import Card from 'react-bootstrap/Card';
+import Lund from './Images/LundUniversity.jpg';
 import KTH from "./Images/KTHLOGO.jpg";
-import Linköping from "./Images/Linköping.jpg";
+import Linköping from "./Images/Linköping.png";
 import Karolinska from "./Images/KarolinskaInstitute.png";
 import BTH from "./Images/BTH.png";
 import Dalarna from "./Images/DalarnaUniversity.png";
 import Jönköping from "./Images/Jönköping.png";
 import Uppsala from "./Images/Uppsalauniversity.png";
 import Goteborg from "./Images/GoteborgsUniversity.png";
-import CardColumns from 'react-bootstrap/CardGroup';
-import Collapse from 'react-bootstrap/Collapse';
+import { Container, Row, Col} from 'react-bootstrap';
 
 class InternationalSt extends Component {
     
@@ -84,84 +82,52 @@ class InternationalSt extends Component {
                                 </div>
                                 </p>
                         </div>
-                        <CardColumns>
-                            <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient" src={KTH} alt="Card image" />
-                                <Card.ImgOverlay>
-                                    <Card.Text className="transbox">
-                                        <a className="a" href='https://intra.kth.se/en/campus/sakerhet/kris/corona/information-till-studenter-med-anledning-av-coronaviruset-1.965905'>KTH-University</a>
-                                    </Card.Text>
-                                </Card.ImgOverlay>
-                            </Card>
-                            <Card className=" text-black">
-                                <Card.Img className="image_gradient" src={Linköping} alt="Card image" />
-                                <Card.ImgOverlay>
-                                    <Card.Text className="transbox">
-                                        <a className="a" href="https://insidan.liu.se/HR-Personal/coronavirus?l=sv">Linköping-University</a>
-                                    </Card.Text>
-                                </Card.ImgOverlay>
-                            </Card>
-                            <Card className=" text-blank">
-                                <Card.Img className="image_gradient" src={Karolinska} alt="Card image" />
-                                <Card.ImgOverlay>
-                                    <Card.Text className="transbox">
-                                        <a className="a" href="https://news.ki.se/information-about-the-coronavirus-for-staff-and-students">Karolinska-University</a>
-                                    </Card.Text>
-                                </Card.ImgOverlay>
-                            </Card>
-                        </CardColumns>
-                        <CardColumns>
-                            <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient" src={Lund} alt="Card image" />
-                                <Card.ImgOverlay>
-                                    <Card.Text className="transbox">
-                                    <a className="a" href="https://www.lu.se/studera/coronavirusetcovid-19-information-for-studenter#">Lund-University</a>
-                                    </Card.Text>
-                                </Card.ImgOverlay>
-                            </Card>
-                            <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient" src={BTH} alt="Card image" />
-                                <Card.ImgOverlay>
-                                    <Card.Text className="transbox">
-                                        <a className="a" href="https://www.bth.se/eng/emergency/corona/information-for-students/">BTH-Universioty</a>
-                                    </Card.Text>
-                                </Card.ImgOverlay>
-                            </Card>
-                            <Card className="bg-dark text-blank">
-                                <Card.Img className="image_gradient" src={Dalarna} alt="Card image" />
-                                <Card.ImgOverlay>
-                                    <Card.Text>
-                                        <a className="a" href="https://www.du.se/en/information-about-the-coronavirus-for-staff-and-students/">Dalarna-University</a>
-                                    </Card.Text>
-                                </Card.ImgOverlay>
-                            </Card>
-                        </CardColumns>
-                        <CardColumns>
-                            <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient" src={Jönköping} alt="Card image" />
-                                <Card.ImgOverlay>
-                                    <Card.Text>
-                                        <a className="a" href='https://ju.se/om-oss/jonkoping-university/informationsmaterial/uppdaterad-information-med-anledning-av-coronaviruset.html'>Jönköping-University</a>
-                                    </Card.Text>
-                                </Card.ImgOverlay>
-                            </Card>
-                            <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient" src={Goteborg} alt="Card image" />
-                                <Card.ImgOverlay>
-                                    <Card.Text>
-                                        <a className="a" href="https://studentportal.gu.se/english/coronavirus;jsessionid=lfnyo9i1p2ejvo7zhty8zlaf?skipSSOCheck=true&referer=https%3A%2F%2Futbildning.gu.se%2Feducation%2Fincoming-student%2Fcovid19">Goteborg-University</a>
-                                    </Card.Text>
-                                </Card.ImgOverlay>
-                            </Card>
-                            <Card className="bg-dark text-blank">
-                                <Card.Img className="image_gradient" src={Uppsala} alt="Card image" />
-                                <Card.ImgOverlay>
-                                    <Card.Text>
-                                        <a className="a" href="https://www.uu.se/en/students/recommendations-on-coronavirus/">Uppsala-University</a>
-                                    </Card.Text>
-                                </Card.ImgOverlay>
-                            </Card>
-                        </CardColumns>
+                        <Container >
+                        <Row >
+                            < Col >
+                                 <img src={KTH}  className ="img_height" />
+                                 <a className="a a1" href='https://intra.kth.se/en/campus/sakerhet/kris/corona/information-till-studenter-med-anledning-av-coronaviruset-1.965905'>KTH-University</a>
+                             </Col > 
+                            < Col  >
+                                 <img src={Linköping}  className =" img_height" />
+                                 <a className="a a1" href="https://insidan.liu.se/HR-Personal/coronavirus?l=sv">Linköping-University</a>
+                            </Col > 
+                             < Col >
+                                 <img src={Karolinska}  className =" img_height" />
+                                 <a className="a a1" href="https://news.ki.se/information-about-the-coronavirus-for-staff-and-students">Karolinska-University</a>
+                             </Col >      
+                        </Row> 
+                        <Row >
+                            < Col >
+                                 <img src={Lund}  className ="img_height" />
+                                 <a className="a " href="https://www.lu.se/studera/coronavirusetcovid-19-information-for-studenter#">Lund-University</a>
+                             </Col > 
+                            < Col  >
+                                 <img src={BTH}  className =" img_height" />
+                                 <a className="a  " href="https://www.bth.se/eng/emergency/corona/information-for-students/">BTH-Universioty</a>
+                            </Col > 
+                             < Col  >
+                                 <img src={Dalarna}  className =" img_height" />
+                                 <a className="a " href="https://www.du.se/en/information-about-the-coronavirus-for-staff-and-students/">Dalarna-University</a>
+                             </Col >      
+                        </Row> 
+
+                        <Row >
+                            < Col >
+                                 <img src={Uppsala}  className =" img_height" />
+                                 <a className="a " href="https://www.uu.se/en/students/recommendations-on-coronavirus/">Uppsala-University</a>
+                             </Col > 
+                            < Col  >
+                                 <img src={Goteborg}  className ="img_height" />
+                                 <a className="a " href="https://studentportal.gu.se/english/coronavirus;jsessionid=lfnyo9i1p2ejvo7zhty8zlaf?skipSSOCheck=true&referer=https%3A%2F%2Futbildning.gu.se%2Feducation%2Fincoming-student%2Fcovid19">Goteborg-University</a>
+                            </Col > 
+                             < Col  >
+                                 <img src={Jönköping}  className ="img_height" />
+                                 <a className="a " href='https://ju.se/om-oss/jonkoping-university/informationsmaterial/uppdaterad-information-med-anledning-av-coronaviruset.html'>Jönköping-University</a>      
+                             </Col >      
+                        </Row> 
+                    </Container>
+     
                     </div>
                     <h3 className="disscusionForum">Disscusion Forum</h3>
                 </div>
