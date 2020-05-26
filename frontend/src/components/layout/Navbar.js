@@ -16,10 +16,8 @@ function Navbar() {
                          </Col >   
                          <Col className ="header-name text-white" >
                              <h1>  POSITIVE VIBES   </h1>
-                         </Col>    
-                         <Col  id ="headerLink">
-                          <Link to="/AllInfo"> Covid_19 cases info</Link>
-                         </Col>      
+                         </Col> 
+                         <Col></Col>      
                </Row> 
              </Container>
      
@@ -62,6 +60,12 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item">
+                            <Link to="/AllInfo" className="nav-link">
+                            <span class="fa fa-bar-chart"></span> COVID-19 Cases
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
                             <Link to="/ContactUs" className="nav-link">
                             <span class="fa fa-address-book fas-lg"></span> Contact Us
                             </Link>
@@ -69,8 +73,8 @@ function Navbar() {
                     </ul>
                
                 </div>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                <form class="form-inline" target="_blank" action="https://www.google.com/search" method="GET">
+                    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Google Search" aria-label="Search" />
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                  </form>
             </nav>
