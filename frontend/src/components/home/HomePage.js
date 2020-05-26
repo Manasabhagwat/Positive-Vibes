@@ -18,6 +18,7 @@ class HomePage extends Component {
         </div>
         <div class="row">
             <SideBar/>
+ 
             <div className="col-md-9">
             <div class="row mt-30">
                 <div class="col-md-4 col-sm-6">
@@ -101,7 +102,6 @@ class HomePage extends Component {
                             <li>Cover your nose and mouth when you cough or sneeze.</li>
                             <li>Stay home if you feel unwell.</li>
                             </ul>
-                           
                         </div>
                     </div>
                 </div>

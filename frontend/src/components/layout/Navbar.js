@@ -60,6 +60,12 @@ function Navbar() {
                             <span class="fa fa-address-card fas-lg"></span> About Us
                             </Link>
                         </li>
+
+                        <li className="nav-item">
+                            <Link to="/ContactUs" className="nav-link">
+                            <span class="fa fa-address-book fas-lg"></span> Contact Us
+                            </Link>
+                        </li>
                     </ul>
                
                 </div>
