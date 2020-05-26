@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SideBar from '../layout/SideBar.js';
+import Card from 'react-bootstrap/Card'
  
 class AllInfo extends Component {
   constructor(props) {
@@ -53,6 +53,7 @@ class AllInfo extends Component {
                                 </div>
                              </div>  
                      </div>  
+                     
                  </div>  
             );
         }
