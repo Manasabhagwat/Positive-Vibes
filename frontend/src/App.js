@@ -19,6 +19,7 @@ import InternationalSt from "./components/home/InternationalSt";
 import PostsPage from "./components/posts/PostsPage";
 import AboutUs from "./components/home/AboutUs";
 import { Responsive } from "./Responsive.js";
+import ContactUs from "./components/contactUs/ContactUs"
 
 
 function App() {
@@ -69,6 +70,9 @@ function App() {
                         </Route>
                         <Route path="/PostsPage">
                             <PostsPage/>
+                        </Route>
+                        <Route path="/ContactUs">
+                            <ContactUs/>
                         </Route>
                     </Switch>
                 </div>
