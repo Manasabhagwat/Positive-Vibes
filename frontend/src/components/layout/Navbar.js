@@ -60,14 +60,14 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/AllInfo" className="nav-link">
-                            <span class="fa fa-bar-chart"></span> COVID-19 Cases
+                            <Link to="/ContactUs" className="nav-link">
+                            <span class="fa fa-address-book fas-lg"></span> Contact Us
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/ContactUs" className="nav-link">
-                            <span class="fa fa-address-book fas-lg"></span> Contact Us
+                            <Link to="/AllInfo" className="nav-link">
+                            <span class="fa fa-bar-chart"></span> COVID-19 Cases
                             </Link>
                         </li>
                     </ul>

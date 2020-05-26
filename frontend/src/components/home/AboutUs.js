@@ -3,7 +3,7 @@ import aboutUs from "./aboutUs.jpg";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert'
-import Shikha from "./Images/shikha.png";
+import Shikha from "./Images/Shikha.png";
 import Archana from "./Images/Archana.png";
 import Veena from "./Images/Veena.png";
 import Manasa from "./Images/Manasa.png";
