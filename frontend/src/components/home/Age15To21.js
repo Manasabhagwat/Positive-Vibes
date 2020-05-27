@@ -81,11 +81,11 @@ class Age15To21 extends Component {
                                 <Card.ImgOverlay>
                                     <Card.Title><u>Educational Activities</u></Card.Title>
                                     <Card.Text className="transbox ">
-                                        <a className="a" href='https://www.udemy.com/'>Online-courses</a>
+                                        <a className="a" target="blank" href='https://www.udemy.com/'>Online-courses</a>
                                         <p></p>
-                                        <a className="a" href='https://www.discoveryeducation.com/'>Lets discover Learning</a>
+                                        <a className="a" target="blank" href='https://www.discoveryeducation.com/'>Lets discover Learning</a>
                                         <p></p>
-                                        <a className="a" href='https://www.coursera.org/'>Distance Learning</a>
+                                        <a className="a" target="blank" href='https://www.coursera.org/'>Distance Learning</a>
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
@@ -94,11 +94,11 @@ class Age15To21 extends Component {
                                 <Card.ImgOverlay>
                                     <Card.Title><u>To become more Creative Activities</u></Card.Title>
                                     <Card.Text className="transbox ">
-                                        <a className="a" href="https://www.springboard.com/coursera/listening-to-world-music/">Music World</a>
+                                        <a className="a" target="blank"href="https://www.springboard.com/coursera/listening-to-world-music/">Music World</a>
                                         <p></p>
-                                        <a className="a" href="https://www.agame.com/">Online Games</a>
+                                        <a className="a" target="blank" href="https://www.agame.com/">Online Games</a>
                                         <p></p>
-                                        <a className="a" href="https://www.goodhousekeeping.com/life/g31818776/quarantine-birthday-party-ideas/">Quarantine Bithday Party Ideas</a>
+                                        <a className="a" target="blank" href="https://www.goodhousekeeping.com/life/g31818776/quarantine-birthday-party-ideas/">Quarantine Bithday Party Ideas</a>
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
@@ -108,16 +108,17 @@ class Age15To21 extends Component {
                                 <Card.ImgOverlay>
                                     <Card.Title><u>Fitness</u></Card.Title>
                                     <Card.Text className="transbox ">
-                                        <a className="a" href="https://youtu.be/gC_L9qAHVJ8">Lets get fit</a>
+                                        <a className="a" target="blank" href="https://youtu.be/gC_L9qAHVJ8">Lets get fit</a>
                                         <p> </p>
-                                        <a className="a" href="https://youtu.be/D80LZz2WkZs">Dance fitness</a>
+                                        <a className="a" target="blank" href="https://youtu.be/D80LZz2WkZs">Dance fitness</a>
                                         <p></p>
-                                        <a className="a" href="https://academy.yogaed.com/p/yoga-ed-for-free-online-yoga-mindfulness-classes-for-all-ages">Yoga-Inner strength</a>
+                                        <a className="a" target="blank" href="https://academy.yogaed.com/p/yoga-ed-for-free-online-yoga-mindfulness-classes-for-all-ages">Yoga-Inner strength</a>
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
                         </CardColumns>
-                    <h3 className="disscusionForum">Disscusion Forum</h3>
+                        <br></br>
+                    <h3 className="disscusionForum">Discussion Forum</h3>
                 <PostsPage category='15to21' />
                 </div>
                 </div>
