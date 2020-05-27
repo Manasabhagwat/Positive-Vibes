@@ -64,11 +64,11 @@ class Age3To6 extends Component {
                                 <Card.ImgOverlay>
                                     <Card.Title><u>Educational Activities</u></Card.Title>
                                     <Card.Text className="transbox ">
-                                        <a className="a" href='https://www.starfall.com/h/'>Learning made fun</a>
+                                        <a className="a" target="blank" href='https://www.starfall.com/h/'>Learning made fun</a>
                                         <p></p>
-                                        <a className="a" href='https://allinonehomeschool.com/'>All in one Home School</a>
+                                        <a className="a" target="blank" href='https://allinonehomeschool.com/'>All in one Home School</a>
                                         <p></p>
-                                        <a className="a" href='https://classroommagazines.scholastic.com/support/learnathome.html'>Lets Learn from Home</a>
+                                        <a className="a" target="blank" href='https://classroommagazines.scholastic.com/support/learnathome.html'>Lets Learn from Home</a>
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
@@ -77,11 +77,11 @@ class Age3To6 extends Component {
                                 <Card.ImgOverlay>
                                     <Card.Title><u>To become more Creative Activities</u></Card.Title>
                                     <Card.Text className="transbox ">
-                                        <a className="a" href="https://www.mom365.com/preschool/development/10-fun-activities-to-do-with-your-preschooler">Unboxing Creativity</a>
+                                        <a className="a" target="blank" href="https://www.mom365.com/preschool/development/10-fun-activities-to-do-with-your-preschooler">Unboxing Creativity</a>
                                         <p></p>
-                                        <a className="a" href="https://www.freechildrenstories.com/age-3-5">Story Time</a>
+                                        <a className="a" target="blank" href="https://www.freechildrenstories.com/age-3-5">Story Time</a>
                                         <p></p>
-                                        <a className="a" href="https://www.thesprucecrafts.com/crafts-for-preschoolers-and-toddlers-1254268"> Crafts is fun</a>
+                                        <a className="a" target="blank" href="https://www.thesprucecrafts.com/crafts-for-preschoolers-and-toddlers-1254268"> Crafts is fun</a>
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
@@ -91,17 +91,18 @@ class Age3To6 extends Component {
                                 <Card.ImgOverlay>
                                     <Card.Title><u>Fitness</u></Card.Title>
                                     <Card.Text className="transbox ">
-                                        <a className="a" href="https://youtu.be/iWowDC3x0hE">Cosmic Yoga for Kids</a>
+                                        <a className="a" target="blank" href="https://youtu.be/iWowDC3x0hE">Cosmic Yoga for Kids</a>
                                         <p> </p>
-                                        <a className="a" href="https://youtu.be/0TgLtF3PMOc">Jack Hartman Music Channel</a>
+                                        <a className="a" target="blank" href="https://youtu.be/0TgLtF3PMOc">Jack Hartman Music Channel</a>
                                         <p></p>
-                                        <a className="a" href="https://www.youtube.com/watch?v=u0_1QBQ8Syk&feature=youtu.be">The body Coach</a>
+                                        <a className="a" target="blank" href="https://www.youtube.com/watch?v=u0_1QBQ8Syk&feature=youtu.be">The body Coach</a>
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
                         </CardColumns>
                     </div>
-                    <h3 className="disscusionForum">Disscusion Forum</h3>
+                    <br></br>
+                    <h3 className="disscusionForum">Discussion Forum</h3>
                 <PostsPage category='3to6' />
                 </div>
             </div>

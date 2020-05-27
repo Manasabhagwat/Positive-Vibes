@@ -111,7 +111,7 @@
 }
 .a {
   color:#0f0f0f;
-  font-weight: 700;
+  font-weight: 500;
   }
   .a1{
     padding-left: 20px;
@@ -401,8 +401,8 @@ h5{
   padding-left: 80px;
 }
 .img_height{
-  max-height: 70%;
-  max-width: 70%;
+  max-height: 50%;
+  max-width: 50%;
 }
 .image_gradient{
   height:250px;

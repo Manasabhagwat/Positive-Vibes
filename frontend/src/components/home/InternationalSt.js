@@ -81,55 +81,55 @@ class InternationalSt extends Component {
                                     </div>
                                 </div>
                                 </p>
-                        </div>
+                        
                         <Container >
                         <Row >
                             < Col >
-                                 <img src={KTH}  className ="img_height" />
-                                 <a className="a a1" href='https://intra.kth.se/en/campus/sakerhet/kris/corona/information-till-studenter-med-anledning-av-coronaviruset-1.965905'>KTH-University</a>
+                                 <img src={KTH}  className ="img_height" /><br></br>
+                                 <a className="a" target="blank" href='https://intra.kth.se/en/campus/sakerhet/kris/corona/information-till-studenter-med-anledning-av-coronaviruset-1.965905'>KTH-University</a>
                              </Col > 
                             < Col  >
-                                 <img src={Linköping}  className =" img_height" />
-                                 <a className="a a1" href="https://insidan.liu.se/HR-Personal/coronavirus?l=sv">Linköping-University</a>
+                                 <img src={Linköping}  className =" img_height" /><br></br>
+                                 <a className="a" target="blank" href="https://insidan.liu.se/HR-Personal/coronavirus?l=sv">Linköping-University</a>
                             </Col > 
                              < Col >
-                                 <img src={Karolinska}  className =" img_height" />
-                                 <a className="a a1" href="https://news.ki.se/information-about-the-coronavirus-for-staff-and-students">Karolinska-University</a>
+                                 <img src={Karolinska}  className =" img_height" /><br></br>
+                                 <a className="a" target="blank" href="https://news.ki.se/information-about-the-coronavirus-for-staff-and-students">Karolinska-University</a>
                              </Col >      
                         </Row> 
                         <Row >
                             < Col >
-                                 <img src={Lund}  className ="img_height" />
-                                 <a className="a " href="https://www.lu.se/studera/coronavirusetcovid-19-information-for-studenter#">Lund-University</a>
+                                 <img src={Lund}  className ="img_height" /><br></br>
+                                 <a className="a" target="blank" href="https://www.lu.se/studera/coronavirusetcovid-19-information-for-studenter#">Lund-University</a>
                              </Col > 
                             < Col  >
-                                 <img src={BTH}  className =" img_height" />
-                                 <a className="a  " href="https://www.bth.se/eng/emergency/corona/information-for-students/">BTH-Universioty</a>
+                                 <img src={BTH}  className =" img_height" /><br></br>
+                                 <a className="a" target="blank" href="https://www.bth.se/eng/emergency/corona/information-for-students/">BTH-University</a>
                             </Col > 
                              < Col  >
-                                 <img src={Dalarna}  className =" img_height" />
-                                 <a className="a " href="https://www.du.se/en/information-about-the-coronavirus-for-staff-and-students/">Dalarna-University</a>
+                                 <img src={Dalarna}  className =" img_height" /><br></br>
+                                 <a className="a" target="blank" href="https://www.du.se/en/information-about-the-coronavirus-for-staff-and-students/">Dalarna-University</a>
                              </Col >      
                         </Row> 
 
                         <Row >
                             < Col >
-                                 <img src={Uppsala}  className =" img_height" />
-                                 <a className="a " href="https://www.uu.se/en/students/recommendations-on-coronavirus/">Uppsala-University</a>
+                                 <img src={Uppsala}  className =" img_height" /><br></br>
+                                 <a className="a" target="blank" href="https://www.uu.se/en/students/recommendations-on-coronavirus/">Uppsala-University</a>
                              </Col > 
                             < Col  >
-                                 <img src={Goteborg}  className ="img_height" />
-                                 <a className="a " href="https://studentportal.gu.se/english/coronavirus;jsessionid=lfnyo9i1p2ejvo7zhty8zlaf?skipSSOCheck=true&referer=https%3A%2F%2Futbildning.gu.se%2Feducation%2Fincoming-student%2Fcovid19">Goteborg-University</a>
+                                 <img src={Goteborg}  className ="img_height" /><br></br>
+                                 <a className="a" target="blank" href="https://studentportal.gu.se/english/coronavirus;jsessionid=lfnyo9i1p2ejvo7zhty8zlaf?skipSSOCheck=true&referer=https%3A%2F%2Futbildning.gu.se%2Feducation%2Fincoming-student%2Fcovid19">University of Gothenburg</a>
                             </Col > 
                              < Col  >
-                                 <img src={Jönköping}  className ="img_height" />
-                                 <a className="a " href='https://ju.se/om-oss/jonkoping-university/informationsmaterial/uppdaterad-information-med-anledning-av-coronaviruset.html'>Jönköping-University</a>      
+                                 <img src={Jönköping}  className ="img_height" /><br></br>
+                                 <a className="a" target="blank" href='https://ju.se/om-oss/jonkoping-university/informationsmaterial/uppdaterad-information-med-anledning-av-coronaviruset.html'>Jönköping-University</a>      
                              </Col >      
                         </Row> 
                     </Container>
      
                     </div>
-                    <h3 className="disscusionForum">Disscusion Forum</h3>
+                    <h3 className="disscusionForum">Discussion Forum</h3>
                 <PostsPage category='InternationalSt' />
                 </div>
                 </div>

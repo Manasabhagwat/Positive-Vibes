@@ -52,11 +52,11 @@ class Under3Years extends Component {
                                 <Card.ImgOverlay>
                                     <Card.Title ><u>Educational Activities</u></Card.Title>
                                     <Card.Text >
-                                        <a className="a" href='https://www.abcya.com/grades/prek'>Lets Learn with Fun</a>
+                                        <a className="a" target="blank" href='https://www.abcya.com/grades/prek'>Lets Learn with Fun</a>
                                         <p></p>
-                                        <a className="a" href='https://www.learning4kids.net/category/1-2years/'>Learning for 1 to 2 years old</a>
+                                        <a className="a" target="blank" href='https://www.learning4kids.net/category/1-2years/'>Learning for 1 to 2 years old</a>
                                         <p></p>
-                                        <a className="a" href='https://home.oxfordowl.co.uk/kids-activities/learning-activities-for-toddlers/'>Fun Learning Ideas for 0-3 Years</a>
+                                        <a className="a" target="blank" href='https://home.oxfordowl.co.uk/kids-activities/learning-activities-for-toddlers/'>Fun Learning Ideas for 0-3 Years</a>
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
@@ -65,11 +65,11 @@ class Under3Years extends Component {
                                 <Card.ImgOverlay>
                                     <Card.Title>T<u>o become more Creative Activities</u></Card.Title>
                                     <Card.Text >
-                                        <a className="a" href="https://www.funbrain.com/pre-k-and-k-playground">Online Playground </a>
+                                        <a className="a" target="blank" href="https://www.funbrain.com/pre-k-and-k-playground">Online Playground </a>
                                         <p></p>
-                                        <a className="a" href="https://handsonaswegrow.com/indoor-activities-toddlers/">    Indoor Activities </a>
+                                        <a className="a" target="blank" href="https://handsonaswegrow.com/indoor-activities-toddlers/">    Indoor Activities </a>
                                          <p></p>
-                                        <a className="a" href="https://www.whattoexpect.com/toddler/playtime-tips/crafts-for-toddlers/"> Crafts for Toddlers </a>
+                                        <a className="a" target="blank" href="https://www.whattoexpect.com/toddler/playtime-tips/crafts-for-toddlers/"> Crafts for Toddlers </a>
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
@@ -79,11 +79,11 @@ class Under3Years extends Component {
                                 <Card.ImgOverlay>
                                     <Card.Title><u>Fitness</u></Card.Title>
                                     <Card.Text>
-                                    <a className="a" href="https://activeforlife.com/49-fun-physical-activities-to-do-with-kids-aged-2-to-4/">Physical Activities at home</a>
+                                    <a className="a" target="blank" href="https://activeforlife.com/49-fun-physical-activities-to-do-with-kids-aged-2-to-4/">Physical Activities at home</a>
                                     <p></p>
-                                    <a className="a" href="https://www.verywellfamily.com/toddler-activities-4013770">Indoor Physical Activities</a>
+                                    <a className="a" target="blank" href="https://www.verywellfamily.com/toddler-activities-4013770">Indoor Physical Activities</a>
                                     <p></p>
-                                    <a className="a" href="https://handsonaswegrow.com/physical-activities-toddlers/">Collection of Physical Activities Toddlers</a>                  
+                                    <a className="a" target="blank" href="https://handsonaswegrow.com/physical-activities-toddlers/">Collection of Physical Activities Toddlers</a>                  
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>

@@ -95,11 +95,11 @@ class Age6To15 extends Component {
                      <Card.ImgOverlay>
                            <Card.Title><u>Educational Activities</u></Card.Title>
                                 <Card.Text>
-                                <a className="a" href='https://www.brainpop.com/'>Brain Pop</a>
+                                <a className="a" target="blank" href='https://www.brainpop.com/'>Brain Pop</a>
                                 <p></p>
-                                <a className="a" href='https://www.ixl.com/'>Personalised Learning</a>
+                                <a className="a" target="blank" href='https://www.ixl.com/'>Personalised Learning</a>
                                 <p></p>
-                                <a className="a" href='https://www.tynker.com/'> Coding made Easy</a>
+                                <a className="a" target="blank" href='https://www.tynker.com/'> Coding made Easy</a>
                              </Card.Text>
                             </Card.ImgOverlay>
                         </Card>
@@ -108,11 +108,11 @@ class Age6To15 extends Component {
                             <Card.ImgOverlay>
                                 <Card.Title><u>To become more Creative Activities</u></Card.Title>
                             <Card.Text>
-                             <a  className ="a" href="https://www.classicly.com/young-readers">Books is a  Treasure</a>
+                             <a  className ="a" target="blank" href="https://www.classicly.com/young-readers">Books is a  Treasure</a>
                              <p></p>
-                             <a  className ="a" href="https://stepbysteppainting.net/2018/06/28/painting-for-kids/"> Colourful time</a>
+                             <a  className ="a" target="blank" href="https://stepbysteppainting.net/2018/06/28/painting-for-kids/"> Colourful time</a>
                              <p></p>
-                             <a  className ="a" href="https://www.thesprucecrafts.com/crafts-for-tweens-1254269">Crafty Craft</a>
+                             <a  className ="a" target="blank" href="https://www.thesprucecrafts.com/crafts-for-tweens-1254269">Crafty Craft</a>
                              </Card.Text>
                              </Card.ImgOverlay>
                              </Card>
@@ -121,18 +121,18 @@ class Age6To15 extends Component {
                                  <Card.ImgOverlay>
                                     <Card.Title><u>Fitness</u></Card.Title>
                                 <Card.Text>
-                                 <a className ="a" href="https://youtu.be/McD6_oOWs-M">Execrise is Vital</a>
+                                 <a className ="a" target="blank" href="https://youtu.be/McD6_oOWs-M">Execrise is Vital</a>
                                  <p> </p>
-                                 <a className ="a" href="https://youtu.be/dhCM0C6GnrY">Workout with Kids</a>
+                                 <a className ="a" target="blank" href="https://youtu.be/dhCM0C6GnrY">Workout with Kids</a>
                                  <p></p>
-                                <a className ="a" href="https://youtu.be/X655B4ISakg">Kids Yoga!</a>
+                                <a className ="a" target="blank" href="https://youtu.be/X655B4ISakg">Kids Yoga!</a>
                              </Card.Text>
                             </Card.ImgOverlay>
                              </Card>
                         </CardColumns>
                      
-                
-                <h3 className="disscusionForum">Disscusion Forum</h3>
+                <br></br>
+                <h3 className="disscusionForum">Discussion Forum</h3>
             <PostsPage category='6to15' />
             </div>
             </div>
