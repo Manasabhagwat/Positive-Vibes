@@ -6,3 +6,4 @@ frontend/node_modules
 .settings/
 .package-lock.json
 .package.json
+SlackBackend/node_modules

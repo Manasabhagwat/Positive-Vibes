@@ -130,8 +130,9 @@ class InternationalSt extends Component {
      
                     </div>
                     <h3 className="disscusionForum">Disscusion Forum</h3>
-                </div>
                 <PostsPage category='InternationalSt' />
+                </div>
+                </div>
             </div>
         );
     }

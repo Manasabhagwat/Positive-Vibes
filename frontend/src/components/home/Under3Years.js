@@ -88,11 +88,10 @@ class Under3Years extends Component {
                                 </Card.ImgOverlay>
                             </Card>
                         </CardColumns>
-                    </div>
                     <h3 className="disscusionForum">Disscusion Forum</h3>
-                </div>
                 <PostsPage category='ageunder3' />
-
+                </div>
+                </div>
             </div>
 
 

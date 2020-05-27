@@ -117,11 +117,10 @@ class Age15To21 extends Component {
                                 </Card.ImgOverlay>
                             </Card>
                         </CardColumns>
-                    </div>
                     <h3 className="disscusionForum">Disscusion Forum</h3>
-                </div>
                 <PostsPage category='15to21' />
-
+                </div>
+                </div>
             </div>
 
 
