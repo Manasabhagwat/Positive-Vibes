@@ -100,10 +100,7 @@
   font-size: large;
   color: black;
 }
-.image_gradient{
-  height:250px;
-  border: 1px solid black;
-}
+
 .sidebar{
   column-width:80px;
   background-color: rgb(157, 233, 157);
@@ -115,6 +112,9 @@
 .a {
   color:#0f0f0f;
   font-weight: 700;
+  }
+  .a1{
+    padding-left: 20px;
   }
 .bigger{
   width:100%;
@@ -399,4 +399,12 @@ h5{
 .allInfo-padding{
   padding-bottom: 155px;
   padding-left: 80px;
+}
+.img_height{
+  max-height: 70%;
+  max-width: 70%;
+}
+.image_gradient{
+  height:250px;
+  border: 1px solid black;
 }
