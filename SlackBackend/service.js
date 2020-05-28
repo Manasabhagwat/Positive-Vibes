@@ -34,12 +34,12 @@ app.post('/contact',
         const data = JSON.stringify(ev);
         console.log(data);
         const message = {
-          text: 'Alert Bot! You have a New Message in Covid Portal!',
+          text: 'Alert Bot! New Message.',
           mrkdwn: true,
           attachments: [
             {
               color: '#00FF00',
-              title: 'A New Post has been sent',
+              title: 'Someone left a message for you',
               fields: [{
                 title: data
               }]
