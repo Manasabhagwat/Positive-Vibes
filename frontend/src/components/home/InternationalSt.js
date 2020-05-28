@@ -82,7 +82,7 @@ class InternationalSt extends Component {
                                 </div>
                                 </p>
                         
-                        <Container >
+                        <Container  >
                         <Row >
                             < Col >
                                  <img src={KTH}  className ="img_height" /><br></br>

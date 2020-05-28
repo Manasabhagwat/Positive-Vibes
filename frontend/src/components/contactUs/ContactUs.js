@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import SlackMethodApi from "../../api/SlackMethodApi";
-import PostsApi from "./../../api/PostsApi";
+import { Text } from '../../containers/Language';
 
 class ContactUs extends React.Component {
     constructor (props) {
@@ -36,12 +35,14 @@ class ContactUs extends React.Component {
 
 render() {
     return (
+        
+           
     <div>
         <h4>If you want to contact us, please fill the from.</h4>
         
             <div className= "card-body col-sm-10 mt-3">
                 <div className="form-group row">
-                    <label for="name" class="col-sm-2 col-form-label">Name</label>
+                    <label for="name" class="col-sm-2 col-form-label"><Text tid="name" /></label>
 
                     <textarea 
                         className="form-control col-sm-8"
@@ -51,7 +52,7 @@ render() {
                 </div>
 
                 <div className="form-group row">
-                    <label for="eamil" class="col-sm-2 col-form-label">Email Address</label>
+                    <label for="eamil" class="col-sm-2 col-form-label"><Text tid="EmailAddress" /></label>
 
                     <textarea 
                         className="form-control col-sm-8"
@@ -61,7 +62,7 @@ render() {
                 </div>
 
                 <div className="form-group row">
-                    <label for="message" class="col-sm-2 col-form-label">Message</label>
+                    <label for="message" class="col-sm-2 col-form-label"> <Text tid="Message" /></label>
 
                     <textarea rows="10"
                         className="form-control col-sm-8"
@@ -75,7 +76,7 @@ render() {
                         <button   
                             className="btn btn-outline-success" 
                             onClick={this.handleSubmit}>
-                            Submit
+                           <Text tid="Submit" /> 
                         </button> 
                     </div>
                 </div>

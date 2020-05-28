@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import aboutUs from "./aboutUs.jpg";
-import { Link } from "react-router-dom";
-import { Container, Row, Col, Spinner } from 'react-bootstrap';
-import Alert from 'react-bootstrap/Alert'
+import { Container, Row, Col } from 'react-bootstrap';
 import Shikha from "./Images/shikha.png";
 import Archana from "./Images/Archana.png";
 import Veena from "./Images/Veena.png";
 import Manasa from "./Images/Manasa.png";
 import Vanitha from "./Images/Vanitha.png";
-import SideBar from "../layout/SideBar.js";
+
 
 class AboutUs extends Component {
     render() {

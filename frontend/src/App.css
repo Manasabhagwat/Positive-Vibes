@@ -264,8 +264,6 @@ button.btn.btn-primary {
    #about-image{
     background-image:url('./components/home/aboutUs.jpg');
     }
-    
-  
   
   .dissusionForum {
     font-style: cursive;
@@ -409,10 +407,11 @@ h5{
   border: 1px solid black;
 }
 
-
-
-
-
+.sideHeader{
+  color: white;
+  padding-left: 60px;
+ 
+}
 
 .our-team-main
 {

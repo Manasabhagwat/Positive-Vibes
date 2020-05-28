@@ -1,7 +1,6 @@
 import React from "react";
-
-import { Container, Row, Col, Spinner } from 'react-bootstrap';
-
+import { Container, Row, Col } from 'react-bootstrap';
+import { Text } from '../../containers/Language';
 function Footer() {
     return (
         <div>
@@ -9,13 +8,13 @@ function Footer() {
 
                     <Row>
                         <Col>
-                        <span class= "fa fa-phone-square fa-lg text-white"></span><span className= "text-white"> covid-info<br />1177</span>
+                        <span class= "fa fa-phone-square fa-lg text-white"></span><span className= "text-white">  <Text tid="covidInfo" /> <br/>1177</span>
                         </Col>
                         <Col>
-                        <span class= "fa fa-phone-square fa-lg text-white"></span><span  className= "text-white"> Emergency Number<br />112</span>
+                        <span class= "fa fa-phone-square fa-lg text-white"></span><span  className= "text-white"> <Text tid="emergencyNumber" /><br/>112</span>
                         </Col>
                         <Col>
-                        <span class= "fa fa-phone-square fa-lg text-white"></span><span className= "text-white"> Medical Advice Number<br />11414</span>
+                        <span class= "fa fa-phone-square fa-lg text-white"></span><span className= "text-white"> <Text tid="medicalAdviceNumber" /> <br/>11414</span>
                         </Col>
                </Row>
        
