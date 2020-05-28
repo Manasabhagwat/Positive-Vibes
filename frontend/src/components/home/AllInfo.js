@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Card from 'react-bootstrap/Card'
- 
-class AllInfo extends Component {
+import { Text } from '../../containers/Language';
+
+ class AllInfo extends Component {
   constructor(props) {
       super(props);
 
@@ -23,7 +23,7 @@ class AllInfo extends Component {
                      <div className="row allInfo-padding">
                       
                             <div className="col-sm-6 " id ="Covid_Info">
-                                <h4 > Covid Cases in World</h4> 
+                                <h4 > <Text tid="CovidCasesInWorld" /></h4> 
                                 <div className="card-body colour">
                                 <ul >
                                     <li>Total Cases = {this.state.jsonObject.data.summary.total_cases}</li>
@@ -38,7 +38,7 @@ class AllInfo extends Component {
                                 </div>
                                 </div>
                                 <div className="col-sm-6" id ="Covid_Info">
-                                <h4> Covid Cases in Sweden</h4> 
+                                <h4> <Text tid="CovidCasesInSweden" /></h4> 
                                 <div className="card-body colour">
                                 <ul>
                                     <li>Total Cases = {this.state.jsonObject.data.regions.sweden.total_cases}</li>

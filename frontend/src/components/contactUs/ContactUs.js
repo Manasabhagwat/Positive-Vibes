@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import SlackMethodApi from "../../api/SlackMethodApi";
-import PostsApi from "./../../api/PostsApi";
+import { Text } from '../../containers/Language';
 
 class ContactUs extends React.Component {
     constructor (props) {
@@ -38,7 +37,7 @@ render() {
     return (
         <div>
         <div className="card-body name">
-            <label for="name">Name</label>
+            <label for="name"> <Text tid="name" /> </label>
 
             <textarea 
                 className="form-control col-sm-10"
@@ -48,17 +47,17 @@ render() {
         </div>
 
         <div className="card-body eamil">
-        <label for="eamil">Email Address</label>
+        <label for="eamil"> <Text tid="EmailAddress" /></label>
 
         <textarea 
             className="form-control col-sm-10"
-            placeholder="Type your eamil address"
+            placeholder="Type your email address"
             value={this.state.emailAddress}
             onChange={e => this.setState({emailAddress:e.target.value})} />
         </div>
 
         <div className="card-body message">
-        <label for="message">Message</label>
+        <label for="message"> <Text tid="Message" /></label>
 
         <textarea 
             className="form-control col-sm-10"
@@ -73,7 +72,7 @@ render() {
                 <button   
                     className="btn btn-outline-success" 
                     onClick={this.handleSubmit}>
-                    Submit
+                    <Text tid="Submit" />
                 </button> 
             </div>
         </div>

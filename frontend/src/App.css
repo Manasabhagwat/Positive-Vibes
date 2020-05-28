@@ -408,3 +408,9 @@ h5{
   height:250px;
   border: 1px solid black;
 }
+
+.sideHeader{
+  color: white;
+  padding-left: 60px;
+ 
+}

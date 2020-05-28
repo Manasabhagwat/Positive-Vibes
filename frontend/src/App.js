@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import {BrowserRouter as Router,Switch,Route,} from "react-router-dom";
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 
 // Import custom styles for our application
 import './App.css';
@@ -20,68 +20,71 @@ import PostsPage from "./components/posts/PostsPage";
 import AboutUs from "./components/home/AboutUs";
 import { Responsive } from "./Responsive.js";
 import ContactUs from "./components/contactUs/ContactUs"
+import { LanguageProvider } from './containers/Language.js';
 
 
 function App() {
 
-  const router = (
-            <Router>
-                 <Responsive displayIn={["Laptop","Mobile", "Tablet","Desktop"]}>
-                <Navbar fixed="top"/>
-               
+    const router = (
+        <Router>
+            <LanguageProvider>
+                <Responsive displayIn={["Laptop", "Mobile", "Tablet", "Desktop"]}>
+                    <Navbar fixed="top" />
 
-                <div className="container mt-5 col-md-1" id="side_margin" >
-                    <Switch>
-                        
-                        <Route exact path="/">
-                          <HomePage/>
-                        </Route>
 
-                        <Route path="/otherInformation">
-                            <OtherInformation/>
-                        </Route>
+                    <div className="container mt-5 col-md-1" id="side_margin" >
+                        <Switch>
 
-                        
-                        <Route path="/aboutUs">
-                            <AboutUs/>
-                        </Route>
+                            <Route exact path="/">
+                                <HomePage />
+                            </Route>
 
-                        <Route path="/under3years">
-                            <Under3Years/>
-                        </Route>
+                            <Route path="/otherInformation">
+                                <OtherInformation />
+                            </Route>
 
-                        <Route path="/age3to6Years">
-                            <Age3To6/>
-                        </Route>
 
-                        <Route path="/age6to15Years">
-                            <Age6To15/>
-                        </Route>
+                            <Route path="/aboutUs">
+                                <AboutUs />
+                            </Route>
 
-                        <Route path="/age15to21Years">
-                            <Age15To21/>
-                        </Route>
+                            <Route path="/under3years">
+                                <Under3Years />
+                            </Route>
 
-                        <Route path="/InternationalSt">
-                            <InternationalSt/>
-                        </Route>
-                        <Route path="/AllInfo">
-                            <AllInfo/>
-                        </Route>
-                        <Route path="/PostsPage">
-                            <PostsPage/>
-                        </Route>
-                        <Route path="/ContactUs">
-                            <ContactUs/>
-                        </Route>
-                    </Switch>
-                </div>
-             < Footer fixed="bottom"/>
-             </Responsive>
-            </Router>
-  );
+                            <Route path="/age3to6Years">
+                                <Age3To6 />
+                            </Route>
 
-  return (router);
+                            <Route path="/age6to15Years">
+                                <Age6To15 />
+                            </Route>
+
+                            <Route path="/age15to21Years">
+                                <Age15To21 />
+                            </Route>
+
+                            <Route path="/InternationalSt">
+                                <InternationalSt />
+                            </Route>
+                            <Route path="/AllInfo">
+                                <AllInfo />
+                            </Route>
+                            <Route path="/PostsPage">
+                                <PostsPage />
+                            </Route>
+                            <Route path="/ContactUs">
+                                <ContactUs />
+                            </Route>
+                        </Switch>
+                    </div>
+                    < Footer fixed="bottom" />
+                </Responsive>
+            </LanguageProvider>
+        </Router>
+    );
+
+    return (router);
 }
 
 export default App;
